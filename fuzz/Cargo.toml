@@ -1,0 +1,48 @@
+[package]
+name = "catiakit-fuzz"
+version = "0.0.0"
+publish = false
+edition = "2024"
+license = "PolyForm-Noncommercial-1.0.0"
+
+[package.metadata]
+cargo-fuzz = true
+
+[dependencies]
+libfuzzer-sys = "0.4"
+catiakit-core = { path = "../crates/catiakit-core" }
+
+[[bin]]
+name = "container"
+path = "fuzz_targets/container.rs"
+test = false
+doc = false
+bench = false
+
+[[bin]]
+name = "metadata"
+path = "fuzz_targets/metadata.rs"
+test = false
+doc = false
+bench = false
+
+[[bin]]
+name = "jpeg"
+path = "fuzz_targets/jpeg.rs"
+test = false
+doc = false
+bench = false
+
+[[bin]]
+name = "geometry"
+path = "fuzz_targets/geometry.rs"
+test = false
+doc = false
+bench = false
+
+[[bin]]
+name = "topology"
+path = "fuzz_targets/topology.rs"
+test = false
+doc = false
+bench = false

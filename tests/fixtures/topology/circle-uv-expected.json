@@ -1,0 +1,449 @@
+{
+  "provenance": "constructed, not CATIA authored",
+  "fixtures": [
+    {
+      "path": "native-uv-circle.cfv2",
+      "sha256": "84a2965564b0172f97eb4245c67a41ba200644b7e886d46d8c68e3ef8c1f877d",
+      "vertices": 5,
+      "edges": 5,
+      "faces": 1,
+      "main_bytes": 1981,
+      "fbb": 1781,
+      "packet_ranges": [
+        [
+          1005,
+          1781
+        ]
+      ],
+      "edge_ranges": [
+        [
+          1792,
+          1812
+        ],
+        [
+          1812,
+          1832
+        ],
+        [
+          1843,
+          1863
+        ],
+        [
+          1863,
+          1875
+        ],
+        [
+          1875,
+          1887
+        ]
+      ]
+    },
+    {
+      "path": "native-uv-circle-extended-trim.cfv2",
+      "sha256": "e6295294468b9f0217a21aa4c2a1fb2732d1aa35bbc13d847520353b3081a6d1",
+      "vertices": 5,
+      "edges": 5,
+      "faces": 1,
+      "main_bytes": 1981,
+      "fbb": 1781,
+      "packet_ranges": [
+        [
+          1005,
+          1781
+        ]
+      ],
+      "edge_ranges": [
+        [
+          1792,
+          1812
+        ],
+        [
+          1812,
+          1832
+        ],
+        [
+          1843,
+          1863
+        ],
+        [
+          1863,
+          1875
+        ],
+        [
+          1875,
+          1887
+        ]
+      ]
+    },
+    {
+      "path": "native-uv-circle-forward-refs.cfv2",
+      "sha256": "216049914b7a4b0c194b82ffb189a80cb39f9653f419c80d9b974ffdcd1bac81",
+      "vertices": 5,
+      "edges": 5,
+      "faces": 1,
+      "main_bytes": 1981,
+      "fbb": 1781,
+      "packet_ranges": [
+        [
+          1005,
+          1781
+        ]
+      ],
+      "edge_ranges": [
+        [
+          1792,
+          1812
+        ],
+        [
+          1812,
+          1832
+        ],
+        [
+          1843,
+          1863
+        ],
+        [
+          1863,
+          1875
+        ],
+        [
+          1875,
+          1887
+        ]
+      ]
+    },
+    {
+      "path": "native-uv-circle-ambiguous-forward.cfv2",
+      "sha256": "e2812669fa37894160b8eeeb5defda8ba88ec63780654aa8be1d0cd631151780",
+      "vertices": 5,
+      "edges": 5,
+      "faces": 1,
+      "main_bytes": 1981,
+      "fbb": 1781,
+      "packet_ranges": [
+        [
+          1005,
+          1781
+        ]
+      ],
+      "edge_ranges": [
+        [
+          1792,
+          1812
+        ],
+        [
+          1812,
+          1832
+        ],
+        [
+          1843,
+          1863
+        ],
+        [
+          1863,
+          1875
+        ],
+        [
+          1875,
+          1887
+        ]
+      ]
+    },
+    {
+      "path": "native-uv-circle-negative-radius.cfv2",
+      "sha256": "9b06051505fbd7c76a06a60f0494655a5be35081d5ee8f1351b4308bd4ec5754",
+      "vertices": 5,
+      "edges": 5,
+      "faces": 1,
+      "main_bytes": 1981,
+      "fbb": 1781,
+      "packet_ranges": [
+        [
+          1005,
+          1781
+        ]
+      ],
+      "edge_ranges": [
+        [
+          1792,
+          1812
+        ],
+        [
+          1812,
+          1832
+        ],
+        [
+          1843,
+          1863
+        ],
+        [
+          1863,
+          1875
+        ],
+        [
+          1875,
+          1887
+        ]
+      ]
+    },
+    {
+      "path": "native-uv-circle-unknown-control.cfv2",
+      "sha256": "b1587dde5bc379f16c0475fddc05c4bf2e122541e136f29cf2efcb0f1db9a39a",
+      "vertices": 5,
+      "edges": 5,
+      "faces": 1,
+      "main_bytes": 1981,
+      "fbb": 1781,
+      "packet_ranges": [
+        [
+          1005,
+          1781
+        ]
+      ],
+      "edge_ranges": [
+        [
+          1792,
+          1812
+        ],
+        [
+          1812,
+          1832
+        ],
+        [
+          1843,
+          1863
+        ],
+        [
+          1863,
+          1875
+        ],
+        [
+          1875,
+          1887
+        ]
+      ]
+    },
+    {
+      "path": "native-uv-circle-trailing.cfv2",
+      "sha256": "dfd0285a066dcfaf19fe90f421ad4b370bd9383a2d2da686552a51a03a06e2ab",
+      "vertices": 5,
+      "edges": 5,
+      "faces": 1,
+      "main_bytes": 1981,
+      "fbb": 1781,
+      "packet_ranges": [
+        [
+          1005,
+          1781
+        ]
+      ],
+      "edge_ranges": [
+        [
+          1792,
+          1812
+        ],
+        [
+          1812,
+          1832
+        ],
+        [
+          1843,
+          1863
+        ],
+        [
+          1863,
+          1875
+        ],
+        [
+          1875,
+          1887
+        ]
+      ]
+    },
+    {
+      "path": "native-uv-circle-wrong-support.cfv2",
+      "sha256": "d8a29eeeb23458222ca37c3c4a598e650b3f9663b9267532f1ebbdf63cab5aea",
+      "vertices": 5,
+      "edges": 5,
+      "faces": 1,
+      "main_bytes": 1981,
+      "fbb": 1781,
+      "packet_ranges": [
+        [
+          1005,
+          1781
+        ]
+      ],
+      "edge_ranges": [
+        [
+          1792,
+          1812
+        ],
+        [
+          1812,
+          1832
+        ],
+        [
+          1843,
+          1863
+        ],
+        [
+          1863,
+          1875
+        ],
+        [
+          1875,
+          1887
+        ]
+      ]
+    },
+    {
+      "path": "native-uv-circle-nonfinite.cfv2",
+      "sha256": "5a9cd7326cfd8faa33779aeda4c4f7abee56462f1c13f5f5959f08d965e574dc",
+      "vertices": 5,
+      "edges": 5,
+      "faces": 1,
+      "main_bytes": 1981,
+      "fbb": 1781,
+      "packet_ranges": [
+        [
+          1005,
+          1781
+        ]
+      ],
+      "edge_ranges": [
+        [
+          1792,
+          1812
+        ],
+        [
+          1812,
+          1832
+        ],
+        [
+          1843,
+          1863
+        ],
+        [
+          1863,
+          1875
+        ],
+        [
+          1875,
+          1887
+        ]
+      ]
+    },
+    {
+      "path": "native-uv-child-u8.cfv2",
+      "sha256": "e93cc1e9e03f0bc4aa886392ca308117b611b4ffd275d0dbf37e70566a25c24c",
+      "vertices": 5,
+      "edges": 5,
+      "faces": 1,
+      "main_bytes": 1981,
+      "fbb": 1781,
+      "packet_ranges": [
+        [
+          1005,
+          1781
+        ]
+      ],
+      "edge_ranges": [
+        [
+          1792,
+          1812
+        ],
+        [
+          1812,
+          1832
+        ],
+        [
+          1843,
+          1863
+        ],
+        [
+          1863,
+          1875
+        ],
+        [
+          1875,
+          1887
+        ]
+      ]
+    },
+    {
+      "path": "native-uv-child-u16.cfv2",
+      "sha256": "9c521dd594e6a8241dcc5f86cacf2d718e0de4a0b4849c67757317ad835ce979",
+      "vertices": 5,
+      "edges": 5,
+      "faces": 1,
+      "main_bytes": 1981,
+      "fbb": 1781,
+      "packet_ranges": [
+        [
+          1005,
+          1781
+        ]
+      ],
+      "edge_ranges": [
+        [
+          1792,
+          1812
+        ],
+        [
+          1812,
+          1832
+        ],
+        [
+          1843,
+          1863
+        ],
+        [
+          1863,
+          1875
+        ],
+        [
+          1875,
+          1887
+        ]
+      ]
+    },
+    {
+      "path": "native-uv-child-ambiguous.cfv2",
+      "sha256": "a9b25e278ff1ab0e692be384037be63511bb80fb0cd34622d8273fb51ff3f20c",
+      "vertices": 5,
+      "edges": 5,
+      "faces": 1,
+      "main_bytes": 1981,
+      "fbb": 1781,
+      "packet_ranges": [
+        [
+          1005,
+          1781
+        ]
+      ],
+      "edge_ranges": [
+        [
+          1792,
+          1812
+        ],
+        [
+          1812,
+          1832
+        ],
+        [
+          1843,
+          1863
+        ],
+        [
+          1863,
+          1875
+        ],
+        [
+          1875,
+          1887
+        ]
+      ]
+    }
+  ]
+}

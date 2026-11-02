@@ -1,0 +1,560 @@
+{
+  "provenance": "constructed, not CATIA authored",
+  "fixtures": [
+    {
+      "path": "native-edge-trim-explicit.cfv2",
+      "sha256": "29e647544a4cd7f32a5c8b0f03d7cf8c190a6f14a823ab00ea1ebf2742e74491",
+      "vertices": 5,
+      "edges": 5,
+      "faces": 1,
+      "main_bytes": 1981,
+      "fbb": 1781,
+      "packet_ranges": [
+        [
+          1005,
+          1781
+        ]
+      ],
+      "edge_ranges": [
+        [
+          1792,
+          1812
+        ],
+        [
+          1812,
+          1832
+        ],
+        [
+          1843,
+          1863
+        ],
+        [
+          1863,
+          1875
+        ],
+        [
+          1875,
+          1887
+        ]
+      ]
+    },
+    {
+      "path": "native-edge-trim-reordered.cfv2",
+      "sha256": "ebc892aac20383c91bbecc11095548df06ad53bf3ec6d8dac920eb5a730983a3",
+      "vertices": 5,
+      "edges": 5,
+      "faces": 1,
+      "main_bytes": 1981,
+      "fbb": 1781,
+      "packet_ranges": [
+        [
+          1005,
+          1781
+        ]
+      ],
+      "edge_ranges": [
+        [
+          1792,
+          1812
+        ],
+        [
+          1812,
+          1832
+        ],
+        [
+          1843,
+          1863
+        ],
+        [
+          1863,
+          1875
+        ],
+        [
+          1875,
+          1887
+        ]
+      ]
+    },
+    {
+      "path": "native-edge-trim-line-extension.cfv2",
+      "sha256": "17d220e57517f9bf55a802aae86948977caebdcf29178d85addd4073038e61ad",
+      "vertices": 5,
+      "edges": 5,
+      "faces": 1,
+      "main_bytes": 1981,
+      "fbb": 1781,
+      "packet_ranges": [
+        [
+          1005,
+          1781
+        ]
+      ],
+      "edge_ranges": [
+        [
+          1792,
+          1812
+        ],
+        [
+          1812,
+          1832
+        ],
+        [
+          1843,
+          1863
+        ],
+        [
+          1863,
+          1875
+        ],
+        [
+          1875,
+          1887
+        ]
+      ]
+    },
+    {
+      "path": "native-edge-trim-jet-span.cfv2",
+      "sha256": "b9c7a11309e5a6ab827660188d394189071265b3e8f0f384e37de22667ab2e99",
+      "vertices": 5,
+      "edges": 5,
+      "faces": 1,
+      "main_bytes": 1981,
+      "fbb": 1781,
+      "packet_ranges": [
+        [
+          1005,
+          1781
+        ]
+      ],
+      "edge_ranges": [
+        [
+          1792,
+          1812
+        ],
+        [
+          1812,
+          1832
+        ],
+        [
+          1843,
+          1863
+        ],
+        [
+          1863,
+          1875
+        ],
+        [
+          1875,
+          1887
+        ]
+      ]
+    },
+    {
+      "path": "native-edge-trim-bad-span.cfv2",
+      "sha256": "714243323208d0f6ab7c942a9e8ebf91e42a01f4bdd2b44f58c5ba36ca352954",
+      "vertices": 5,
+      "edges": 5,
+      "faces": 1,
+      "main_bytes": 1981,
+      "fbb": 1781,
+      "packet_ranges": [
+        [
+          1005,
+          1781
+        ]
+      ],
+      "edge_ranges": [
+        [
+          1792,
+          1812
+        ],
+        [
+          1812,
+          1832
+        ],
+        [
+          1843,
+          1863
+        ],
+        [
+          1863,
+          1875
+        ],
+        [
+          1875,
+          1887
+        ]
+      ]
+    },
+    {
+      "path": "native-edge-trim-wrong-direction.cfv2",
+      "sha256": "a439aa7bc80a7a59274598ee1190c757f7ddc0be89ab86740691b8620e22ecab",
+      "vertices": 5,
+      "edges": 5,
+      "faces": 1,
+      "main_bytes": 1981,
+      "fbb": 1781,
+      "packet_ranges": [
+        [
+          1005,
+          1781
+        ]
+      ],
+      "edge_ranges": [
+        [
+          1792,
+          1812
+        ],
+        [
+          1812,
+          1832
+        ],
+        [
+          1843,
+          1863
+        ],
+        [
+          1863,
+          1875
+        ],
+        [
+          1875,
+          1887
+        ]
+      ]
+    },
+    {
+      "path": "native-edge-trim-wrong-map.cfv2",
+      "sha256": "11f5ad2fc6502933d3fc45245e8144e62eb931aaf6d5f437b9723e2b01389465",
+      "vertices": 5,
+      "edges": 5,
+      "faces": 1,
+      "main_bytes": 1981,
+      "fbb": 1781,
+      "packet_ranges": [
+        [
+          1005,
+          1781
+        ]
+      ],
+      "edge_ranges": [
+        [
+          1792,
+          1812
+        ],
+        [
+          1812,
+          1832
+        ],
+        [
+          1843,
+          1863
+        ],
+        [
+          1863,
+          1875
+        ],
+        [
+          1875,
+          1887
+        ]
+      ]
+    },
+    {
+      "path": "native-edge-trim-point-trailing.cfv2",
+      "sha256": "584247523afec68b3b53b56f490c69b2c082c0e112c16b1f405ef2b636079409",
+      "vertices": 5,
+      "edges": 5,
+      "faces": 1,
+      "main_bytes": 1981,
+      "fbb": 1781,
+      "packet_ranges": [
+        [
+          1005,
+          1781
+        ]
+      ],
+      "edge_ranges": [
+        [
+          1792,
+          1812
+        ],
+        [
+          1812,
+          1832
+        ],
+        [
+          1843,
+          1863
+        ],
+        [
+          1863,
+          1875
+        ],
+        [
+          1875,
+          1887
+        ]
+      ]
+    },
+    {
+      "path": "native-edge-trim-unknown-control.cfv2",
+      "sha256": "062b30602e8284e749f739979eb5948e65bb017c565dd9f9422b1bd096c10a97",
+      "vertices": 5,
+      "edges": 5,
+      "faces": 1,
+      "main_bytes": 1981,
+      "fbb": 1781,
+      "packet_ranges": [
+        [
+          1005,
+          1781
+        ]
+      ],
+      "edge_ranges": [
+        [
+          1792,
+          1812
+        ],
+        [
+          1812,
+          1832
+        ],
+        [
+          1843,
+          1863
+        ],
+        [
+          1863,
+          1875
+        ],
+        [
+          1875,
+          1887
+        ]
+      ]
+    },
+    {
+      "path": "native-edge-trim-plane.cfv2",
+      "sha256": "9455e7cbe0bd550094be65a511658323282552c1406cd8a6cdcf8b1ed57a4aa1",
+      "vertices": 5,
+      "edges": 5,
+      "faces": 1,
+      "main_bytes": 1981,
+      "fbb": 1781,
+      "packet_ranges": [
+        [
+          1005,
+          1781
+        ]
+      ],
+      "edge_ranges": [
+        [
+          1792,
+          1812
+        ],
+        [
+          1812,
+          1832
+        ],
+        [
+          1843,
+          1863
+        ],
+        [
+          1863,
+          1875
+        ],
+        [
+          1875,
+          1887
+        ]
+      ]
+    },
+    {
+      "path": "native-edge-trim-plane-trailing.cfv2",
+      "sha256": "a237cfd99ed57adf35b5005d5ebf4ae18cb8d051d7c634e1c97d4258eb495e08",
+      "vertices": 5,
+      "edges": 5,
+      "faces": 1,
+      "main_bytes": 1981,
+      "fbb": 1781,
+      "packet_ranges": [
+        [
+          1005,
+          1781
+        ]
+      ],
+      "edge_ranges": [
+        [
+          1792,
+          1812
+        ],
+        [
+          1812,
+          1832
+        ],
+        [
+          1843,
+          1863
+        ],
+        [
+          1863,
+          1875
+        ],
+        [
+          1875,
+          1887
+        ]
+      ]
+    },
+    {
+      "path": "native-edge-trim-descending.cfv2",
+      "sha256": "696e241d4480c2bb1f27e76043e5bf8114b357c17206e6fcd3a152e685a50a18",
+      "vertices": 5,
+      "edges": 5,
+      "faces": 1,
+      "main_bytes": 1981,
+      "fbb": 1781,
+      "packet_ranges": [
+        [
+          1005,
+          1781
+        ]
+      ],
+      "edge_ranges": [
+        [
+          1792,
+          1812
+        ],
+        [
+          1812,
+          1832
+        ],
+        [
+          1843,
+          1863
+        ],
+        [
+          1863,
+          1875
+        ],
+        [
+          1875,
+          1887
+        ]
+      ]
+    },
+    {
+      "path": "native-edge-trim-unknown-edge-control.cfv2",
+      "sha256": "a5591d2532591abe0f771c64d39327c400bbc0f30947921ea3aee6755c1ca94e",
+      "vertices": 5,
+      "edges": 5,
+      "faces": 1,
+      "main_bytes": 1981,
+      "fbb": 1781,
+      "packet_ranges": [
+        [
+          1005,
+          1781
+        ]
+      ],
+      "edge_ranges": [
+        [
+          1792,
+          1812
+        ],
+        [
+          1812,
+          1832
+        ],
+        [
+          1843,
+          1863
+        ],
+        [
+          1863,
+          1875
+        ],
+        [
+          1875,
+          1887
+        ]
+      ]
+    },
+    {
+      "path": "native-edge-trim-compressed.cfv2",
+      "sha256": "2c11f7e18c7b4aabdfe8b606546f4f51d2f1c70b4e0189ff1f260ae778fd8a31",
+      "vertices": 5,
+      "edges": 5,
+      "faces": 1,
+      "main_bytes": 1981,
+      "fbb": 1781,
+      "packet_ranges": [
+        [
+          1005,
+          1781
+        ]
+      ],
+      "edge_ranges": [
+        [
+          1792,
+          1812
+        ],
+        [
+          1812,
+          1832
+        ],
+        [
+          1843,
+          1863
+        ],
+        [
+          1863,
+          1875
+        ],
+        [
+          1875,
+          1887
+        ]
+      ]
+    },
+    {
+      "path": "native-edge-trim-context-default.cfv2",
+      "sha256": "8c8c3744207267a61b8f9e3d1a1c06740f702e1174030b23f5751537db127dcd",
+      "vertices": 5,
+      "edges": 5,
+      "faces": 1,
+      "main_bytes": 1981,
+      "fbb": 1781,
+      "packet_ranges": [
+        [
+          1005,
+          1781
+        ]
+      ],
+      "edge_ranges": [
+        [
+          1792,
+          1812
+        ],
+        [
+          1812,
+          1832
+        ],
+        [
+          1843,
+          1863
+        ],
+        [
+          1863,
+          1875
+        ],
+        [
+          1875,
+          1887
+        ]
+      ]
+    }
+  ]
+}

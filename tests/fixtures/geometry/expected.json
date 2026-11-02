@@ -1,0 +1,344 @@
+{
+  "fixtures": [
+    {
+      "path": "analytic.cfv2",
+      "main_bytes": 335,
+      "surface_bytes": 602,
+      "fbb_logical_offset": 171,
+      "faces": 8,
+      "edges": 3,
+      "points": 4,
+      "rotation": false,
+      "width": 2,
+      "streams": [
+        {
+          "name": "MainDataStream",
+          "descriptor_relative_offset": 79,
+          "extents": [
+            [
+              191,
+              167
+            ],
+            [
+              16,
+              168
+            ]
+          ]
+        },
+        {
+          "name": "SurfacicReps",
+          "descriptor_relative_offset": 230,
+          "extents": [
+            [
+              673,
+              301
+            ],
+            [
+              365,
+              301
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "path": "placed.cfv2",
+      "main_bytes": 335,
+      "surface_bytes": 602,
+      "fbb_logical_offset": 171,
+      "faces": 8,
+      "edges": 3,
+      "points": 4,
+      "rotation": true,
+      "width": 2,
+      "streams": [
+        {
+          "name": "MainDataStream",
+          "descriptor_relative_offset": 79,
+          "extents": [
+            [
+              191,
+              167
+            ],
+            [
+              16,
+              168
+            ]
+          ]
+        },
+        {
+          "name": "SurfacicReps",
+          "descriptor_relative_offset": 230,
+          "extents": [
+            [
+              673,
+              301
+            ],
+            [
+              365,
+              301
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "path": "unresolved.cfv2",
+      "main_bytes": 335,
+      "surface_bytes": 602,
+      "fbb_logical_offset": 171,
+      "faces": 8,
+      "edges": 3,
+      "points": 4,
+      "rotation": false,
+      "width": 2,
+      "streams": [
+        {
+          "name": "MainDataStream",
+          "descriptor_relative_offset": 79,
+          "extents": [
+            [
+              191,
+              167
+            ],
+            [
+              16,
+              168
+            ]
+          ]
+        },
+        {
+          "name": "SurfacicReps",
+          "descriptor_relative_offset": 230,
+          "extents": [
+            [
+              673,
+              301
+            ],
+            [
+              365,
+              301
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "path": "duplicate-tag.cfv2",
+      "main_bytes": 335,
+      "surface_bytes": 602,
+      "fbb_logical_offset": 171,
+      "faces": 8,
+      "edges": 3,
+      "points": 4,
+      "rotation": false,
+      "width": 2,
+      "streams": [
+        {
+          "name": "MainDataStream",
+          "descriptor_relative_offset": 79,
+          "extents": [
+            [
+              191,
+              167
+            ],
+            [
+              16,
+              168
+            ]
+          ]
+        },
+        {
+          "name": "SurfacicReps",
+          "descriptor_relative_offset": 230,
+          "extents": [
+            [
+              673,
+              301
+            ],
+            [
+              365,
+              301
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "path": "ambiguous-stream.cfv2",
+      "main_bytes": 335,
+      "surface_bytes": 602,
+      "fbb_logical_offset": 171,
+      "faces": 8,
+      "edges": 3,
+      "points": 4,
+      "rotation": false,
+      "width": 2,
+      "streams": [
+        {
+          "name": "MainDataStream",
+          "descriptor_relative_offset": 79,
+          "extents": [
+            [
+              191,
+              167
+            ],
+            [
+              16,
+              168
+            ]
+          ]
+        },
+        {
+          "name": "SurfacicReps",
+          "descriptor_relative_offset": 230,
+          "extents": [
+            [
+              673,
+              301
+            ],
+            [
+              365,
+              301
+            ]
+          ]
+        },
+        {
+          "name": "MainDataStream",
+          "descriptor_relative_offset": 385,
+          "extents": [
+            [
+              1156,
+              167
+            ],
+            [
+              981,
+              168
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "path": "ambiguous-population.cfv2",
+      "main_bytes": 687,
+      "surface_bytes": 602,
+      "fbb_logical_offset": 171,
+      "faces": 8,
+      "edges": 3,
+      "points": 4,
+      "rotation": false,
+      "width": 2,
+      "streams": [
+        {
+          "name": "MainDataStream",
+          "descriptor_relative_offset": 79,
+          "extents": [
+            [
+              367,
+              343
+            ],
+            [
+              16,
+              344
+            ]
+          ]
+        },
+        {
+          "name": "SurfacicReps",
+          "descriptor_relative_offset": 230,
+          "extents": [
+            [
+              1025,
+              301
+            ],
+            [
+              717,
+              301
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "path": "compact-wide.cfv2",
+      "main_bytes": 365,
+      "surface_bytes": 602,
+      "fbb_logical_offset": 195,
+      "faces": 8,
+      "edges": 3,
+      "points": 4,
+      "rotation": false,
+      "width": 3,
+      "streams": [
+        {
+          "name": "MainDataStream",
+          "descriptor_relative_offset": 79,
+          "extents": [
+            [
+              206,
+              182
+            ],
+            [
+              16,
+              183
+            ]
+          ]
+        },
+        {
+          "name": "SurfacicReps",
+          "descriptor_relative_offset": 230,
+          "extents": [
+            [
+              703,
+              301
+            ],
+            [
+              395,
+              301
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "translation": [
+    7,
+    -11,
+    13
+  ],
+  "rotation_columns": [
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ],
+    [
+      1,
+      0,
+      0
+    ]
+  ],
+  "base_plane_origins": [
+    [
+      0,
+      0,
+      10
+    ],
+    [
+      0,
+      20,
+      0
+    ]
+  ],
+  "base_line_origin": [
+    0,
+    20,
+    10
+  ]
+}

@@ -1,0 +1,301 @@
+{
+  "provenance": "constructed, not CATIA authored",
+  "fixtures": [
+    {
+      "path": "native-loop-sense.cfv2",
+      "sha256": "0114696bf4e4ebce7815f7317ddf16778a1393fe47c349d4b9004e9ad72d32c7",
+      "vertices": 5,
+      "edges": 5,
+      "faces": 1,
+      "main_bytes": 1981,
+      "fbb": 1781,
+      "packet_ranges": [
+        [
+          1005,
+          1781
+        ]
+      ],
+      "edge_ranges": [
+        [
+          1792,
+          1812
+        ],
+        [
+          1812,
+          1832
+        ],
+        [
+          1843,
+          1863
+        ],
+        [
+          1863,
+          1875
+        ],
+        [
+          1875,
+          1887
+        ]
+      ]
+    },
+    {
+      "path": "native-loop-face-sense.cfv2",
+      "sha256": "36750b49c8eb34705aa68c7c92f6ff9a1e0292780af261ee29e3929bffb31e36",
+      "vertices": 5,
+      "edges": 5,
+      "faces": 1,
+      "main_bytes": 1981,
+      "fbb": 1781,
+      "packet_ranges": [
+        [
+          1005,
+          1781
+        ]
+      ],
+      "edge_ranges": [
+        [
+          1792,
+          1812
+        ],
+        [
+          1812,
+          1832
+        ],
+        [
+          1843,
+          1863
+        ],
+        [
+          1863,
+          1875
+        ],
+        [
+          1875,
+          1887
+        ]
+      ]
+    },
+    {
+      "path": "native-loop-compact-sense.cfv2",
+      "sha256": "a6269b0376b6ba1379840714999dc32e3a41c1cadd3e2ffcb79701d7567a2e33",
+      "vertices": 5,
+      "edges": 5,
+      "faces": 1,
+      "main_bytes": 1981,
+      "fbb": 1781,
+      "packet_ranges": [
+        [
+          1005,
+          1781
+        ]
+      ],
+      "edge_ranges": [
+        [
+          1792,
+          1812
+        ],
+        [
+          1812,
+          1832
+        ],
+        [
+          1843,
+          1863
+        ],
+        [
+          1863,
+          1875
+        ],
+        [
+          1875,
+          1887
+        ]
+      ]
+    },
+    {
+      "path": "native-loop-reversed-edge.cfv2",
+      "sha256": "d0549732959751a6bc3c24eacc4ec232307460b90dcc55aa2ac1629cf1ecc8ba",
+      "vertices": 5,
+      "edges": 5,
+      "faces": 1,
+      "main_bytes": 1981,
+      "fbb": 1781,
+      "packet_ranges": [
+        [
+          1005,
+          1781
+        ]
+      ],
+      "edge_ranges": [
+        [
+          1792,
+          1812
+        ],
+        [
+          1812,
+          1832
+        ],
+        [
+          1843,
+          1863
+        ],
+        [
+          1863,
+          1875
+        ],
+        [
+          1875,
+          1887
+        ]
+      ]
+    },
+    {
+      "path": "native-loop-broken-cycle.cfv2",
+      "sha256": "1dc5221d9bf2e46ff34d8f321fedca756f57059149cf98b12bbd39c75e109e9b",
+      "vertices": 5,
+      "edges": 5,
+      "faces": 1,
+      "main_bytes": 1981,
+      "fbb": 1781,
+      "packet_ranges": [
+        [
+          1005,
+          1781
+        ]
+      ],
+      "edge_ranges": [
+        [
+          1792,
+          1812
+        ],
+        [
+          1812,
+          1832
+        ],
+        [
+          1843,
+          1863
+        ],
+        [
+          1863,
+          1875
+        ],
+        [
+          1875,
+          1887
+        ]
+      ]
+    },
+    {
+      "path": "native-loop-bad-count.cfv2",
+      "sha256": "53f9042f98e5c0ba436a3133b734588dcf5841bd5efba15ac5f35436f4f780c1",
+      "vertices": 5,
+      "edges": 5,
+      "faces": 1,
+      "main_bytes": 1981,
+      "fbb": 1781,
+      "packet_ranges": [
+        [
+          1005,
+          1781
+        ]
+      ],
+      "edge_ranges": [
+        [
+          1792,
+          1812
+        ],
+        [
+          1812,
+          1832
+        ],
+        [
+          1843,
+          1863
+        ],
+        [
+          1863,
+          1875
+        ],
+        [
+          1875,
+          1887
+        ]
+      ]
+    },
+    {
+      "path": "native-loop-bad-padding.cfv2",
+      "sha256": "1921d821e22420f82b73247d6f5fae8cd473bd8d066dd6b6ec2f351f7dd1930c",
+      "vertices": 5,
+      "edges": 5,
+      "faces": 1,
+      "main_bytes": 1981,
+      "fbb": 1781,
+      "packet_ranges": [
+        [
+          1005,
+          1781
+        ]
+      ],
+      "edge_ranges": [
+        [
+          1792,
+          1812
+        ],
+        [
+          1812,
+          1832
+        ],
+        [
+          1843,
+          1863
+        ],
+        [
+          1863,
+          1875
+        ],
+        [
+          1875,
+          1887
+        ]
+      ]
+    },
+    {
+      "path": "native-loop-truncated-flags.cfv2",
+      "sha256": "aaccd80fa09157f9a37544b4cdc004de35fad989fd91927551456062de23a13c",
+      "vertices": 5,
+      "edges": 5,
+      "faces": 1,
+      "main_bytes": 1981,
+      "fbb": 1781,
+      "packet_ranges": [
+        [
+          1005,
+          1781
+        ]
+      ],
+      "edge_ranges": [
+        [
+          1792,
+          1812
+        ],
+        [
+          1812,
+          1832
+        ],
+        [
+          1843,
+          1863
+        ],
+        [
+          1863,
+          1875
+        ],
+        [
+          1875,
+          1887
+        ]
+      ]
+    }
+  ]
+}

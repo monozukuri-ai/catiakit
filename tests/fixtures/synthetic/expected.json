@@ -1,0 +1,217 @@
+[
+  {
+    "path": "outer.cfv2",
+    "streams": [
+      {
+        "name": "Repeat",
+        "descriptor_relative_offset": 63,
+        "extents": [
+          [
+            80,
+            3
+          ],
+          [
+            64,
+            2
+          ]
+        ],
+        "directory": "outer",
+        "base": 0,
+        "directory_offset": 96,
+        "descriptor_file_offset": 159,
+        "payload_hex": "6768693031"
+      },
+      {
+        "name": "Repeat",
+        "descriptor_relative_offset": 202,
+        "extents": [
+          [
+            68,
+            4
+          ]
+        ],
+        "directory": "outer",
+        "base": 0,
+        "directory_offset": 96,
+        "descriptor_file_offset": 298,
+        "payload_hex": "34353637"
+      }
+    ]
+  },
+  {
+    "path": "nested.cfv2",
+    "streams": [
+      {
+        "name": "Repeat",
+        "descriptor_relative_offset": 63,
+        "extents": [
+          [
+            80,
+            3
+          ],
+          [
+            64,
+            2
+          ]
+        ],
+        "directory": "outer",
+        "base": 0,
+        "directory_offset": 502,
+        "descriptor_file_offset": 565,
+        "payload_hex": "6768693031"
+      },
+      {
+        "name": "Repeat",
+        "descriptor_relative_offset": 202,
+        "extents": [
+          [
+            68,
+            4
+          ]
+        ],
+        "directory": "outer",
+        "base": 0,
+        "directory_offset": 502,
+        "descriptor_file_offset": 704,
+        "payload_hex": "34353637"
+      },
+      {
+        "name": "Body",
+        "descriptor_relative_offset": 317,
+        "extents": [
+          [
+            128,
+            374
+          ]
+        ],
+        "directory": "outer",
+        "base": 0,
+        "directory_offset": 502,
+        "descriptor_file_offset": 819,
+        "payload_hex": "56355f434656320000000020000001564142435f5f5f4445000000000000000043415449415f5635204342303030310000000000000000000000000000000000000000000000000000000000000000004d00610069006e004400610074006100530074007200650061006d00000000a5a5a5a5a5a5a5a5a5a5a5a500000005000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000200000016000000020000000200000000000000000000001000000003000000030000000200000000530075007200660061006300690063005200650070007300000000a5a5a5a5a5a5a5a5a5a5a5a5000000040000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000180000000400000004000000000000000043425f5f454e4400"
+      },
+      {
+        "name": "Empty",
+        "descriptor_relative_offset": 434,
+        "extents": [],
+        "directory": "outer",
+        "base": 0,
+        "directory_offset": 502,
+        "descriptor_file_offset": 936,
+        "payload_hex": ""
+      },
+      {
+        "name": "MainDataStream",
+        "descriptor_relative_offset": 79,
+        "extents": [
+          [
+            22,
+            2
+          ],
+          [
+            16,
+            3
+          ]
+        ],
+        "directory": "nested",
+        "base": 128,
+        "directory_offset": 160,
+        "descriptor_file_offset": 239,
+        "payload_hex": "4445414243"
+      },
+      {
+        "name": "SurfacicReps",
+        "descriptor_relative_offset": 230,
+        "extents": [
+          [
+            24,
+            4
+          ]
+        ],
+        "directory": "nested",
+        "base": 128,
+        "directory_offset": 160,
+        "descriptor_file_offset": 390,
+        "payload_hex": "00000000"
+      }
+    ]
+  },
+  {
+    "path": "inline.cfv2",
+    "streams": [
+      {
+        "name": "Repeat",
+        "descriptor_relative_offset": 48,
+        "extents": [
+          [
+            80,
+            3
+          ],
+          [
+            64,
+            2
+          ]
+        ],
+        "directory": "outer",
+        "base": 0,
+        "directory_offset": 96,
+        "descriptor_file_offset": 144,
+        "payload_hex": "6768693031"
+      },
+      {
+        "name": "Repeat",
+        "descriptor_relative_offset": 172,
+        "extents": [
+          [
+            68,
+            4
+          ]
+        ],
+        "directory": "outer",
+        "base": 0,
+        "directory_offset": 96,
+        "descriptor_file_offset": 268,
+        "payload_hex": "34353637"
+      }
+    ]
+  },
+  {
+    "path": "padded.cfv2",
+    "streams": [
+      {
+        "name": "Repeat",
+        "descriptor_relative_offset": 63,
+        "extents": [
+          [
+            80,
+            3
+          ],
+          [
+            64,
+            2
+          ]
+        ],
+        "directory": "outer",
+        "base": 0,
+        "directory_offset": 96,
+        "descriptor_file_offset": 159,
+        "payload_hex": "6768693031"
+      },
+      {
+        "name": "Repeat",
+        "descriptor_relative_offset": 202,
+        "extents": [
+          [
+            68,
+            4
+          ]
+        ],
+        "directory": "outer",
+        "base": 0,
+        "directory_offset": 96,
+        "descriptor_file_offset": 298,
+        "payload_hex": "34353637"
+      }
+    ]
+  }
+]

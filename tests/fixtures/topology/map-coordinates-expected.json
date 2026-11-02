@@ -1,0 +1,523 @@
+{
+  "provenance": "constructed, not CATIA authored",
+  "fixtures": [
+    {
+      "path": "native-map-coordinate-scalar.cfv2",
+      "sha256": "f5921fe6af3384614056ec802f45215cd56ffac307436b769ac91b0b5760552d",
+      "vertices": 5,
+      "edges": 5,
+      "faces": 1,
+      "main_bytes": 1981,
+      "fbb": 1781,
+      "packet_ranges": [
+        [
+          1005,
+          1781
+        ]
+      ],
+      "edge_ranges": [
+        [
+          1792,
+          1812
+        ],
+        [
+          1812,
+          1832
+        ],
+        [
+          1843,
+          1863
+        ],
+        [
+          1863,
+          1875
+        ],
+        [
+          1875,
+          1887
+        ]
+      ]
+    },
+    {
+      "path": "native-map-coordinate-reordered.cfv2",
+      "sha256": "a79380430d6c430e7b3f24212da129058e96fb02680f9d81e06b0f2a15c90f17",
+      "vertices": 5,
+      "edges": 5,
+      "faces": 1,
+      "main_bytes": 1981,
+      "fbb": 1781,
+      "packet_ranges": [
+        [
+          1005,
+          1781
+        ]
+      ],
+      "edge_ranges": [
+        [
+          1792,
+          1812
+        ],
+        [
+          1812,
+          1832
+        ],
+        [
+          1843,
+          1863
+        ],
+        [
+          1863,
+          1875
+        ],
+        [
+          1875,
+          1887
+        ]
+      ]
+    },
+    {
+      "path": "native-map-coordinate-inherited.cfv2",
+      "sha256": "2c11f7e18c7b4aabdfe8b606546f4f51d2f1c70b4e0189ff1f260ae778fd8a31",
+      "vertices": 5,
+      "edges": 5,
+      "faces": 1,
+      "main_bytes": 1981,
+      "fbb": 1781,
+      "packet_ranges": [
+        [
+          1005,
+          1781
+        ]
+      ],
+      "edge_ranges": [
+        [
+          1792,
+          1812
+        ],
+        [
+          1812,
+          1832
+        ],
+        [
+          1843,
+          1863
+        ],
+        [
+          1863,
+          1875
+        ],
+        [
+          1875,
+          1887
+        ]
+      ]
+    },
+    {
+      "path": "native-map-coordinate-range.cfv2",
+      "sha256": "835743dc734a66a1c845e2470715665ab6cc6d1515b43f8c0449f5f17ff9e373",
+      "vertices": 5,
+      "edges": 5,
+      "faces": 1,
+      "main_bytes": 1981,
+      "fbb": 1781,
+      "packet_ranges": [
+        [
+          1005,
+          1781
+        ]
+      ],
+      "edge_ranges": [
+        [
+          1792,
+          1812
+        ],
+        [
+          1812,
+          1832
+        ],
+        [
+          1843,
+          1863
+        ],
+        [
+          1863,
+          1875
+        ],
+        [
+          1875,
+          1887
+        ]
+      ]
+    },
+    {
+      "path": "native-map-coordinate-span.cfv2",
+      "sha256": "9b87bc6682877c8b42e25fe9beb1e9fe74b8f1e3a213025fce921a03d29b4aa6",
+      "vertices": 5,
+      "edges": 5,
+      "faces": 1,
+      "main_bytes": 1981,
+      "fbb": 1781,
+      "packet_ranges": [
+        [
+          1005,
+          1781
+        ]
+      ],
+      "edge_ranges": [
+        [
+          1792,
+          1812
+        ],
+        [
+          1812,
+          1832
+        ],
+        [
+          1843,
+          1863
+        ],
+        [
+          1863,
+          1875
+        ],
+        [
+          1875,
+          1887
+        ]
+      ]
+    },
+    {
+      "path": "native-map-coordinate-bad-span.cfv2",
+      "sha256": "cb73960a29be4bdfe6b4ed7735a5587d22e0831bfdedb89d1faadad80622e68b",
+      "vertices": 5,
+      "edges": 5,
+      "faces": 1,
+      "main_bytes": 1981,
+      "fbb": 1781,
+      "packet_ranges": [
+        [
+          1005,
+          1781
+        ]
+      ],
+      "edge_ranges": [
+        [
+          1792,
+          1812
+        ],
+        [
+          1812,
+          1832
+        ],
+        [
+          1843,
+          1863
+        ],
+        [
+          1863,
+          1875
+        ],
+        [
+          1875,
+          1887
+        ]
+      ]
+    },
+    {
+      "path": "native-map-coordinate-wrong-span.cfv2",
+      "sha256": "8ca030e5b835640ac9a0e617dfe51adb9fe57b8cd134fde2e59d8fdf8bceb70b",
+      "vertices": 5,
+      "edges": 5,
+      "faces": 1,
+      "main_bytes": 1981,
+      "fbb": 1781,
+      "packet_ranges": [
+        [
+          1005,
+          1781
+        ]
+      ],
+      "edge_ranges": [
+        [
+          1792,
+          1812
+        ],
+        [
+          1812,
+          1832
+        ],
+        [
+          1843,
+          1863
+        ],
+        [
+          1863,
+          1875
+        ],
+        [
+          1875,
+          1887
+        ]
+      ]
+    },
+    {
+      "path": "native-map-coordinate-outside.cfv2",
+      "sha256": "29e647544a4cd7f32a5c8b0f03d7cf8c190a6f14a823ab00ea1ebf2742e74491",
+      "vertices": 5,
+      "edges": 5,
+      "faces": 1,
+      "main_bytes": 1981,
+      "fbb": 1781,
+      "packet_ranges": [
+        [
+          1005,
+          1781
+        ]
+      ],
+      "edge_ranges": [
+        [
+          1792,
+          1812
+        ],
+        [
+          1812,
+          1832
+        ],
+        [
+          1843,
+          1863
+        ],
+        [
+          1863,
+          1875
+        ],
+        [
+          1875,
+          1887
+        ]
+      ]
+    },
+    {
+      "path": "native-map-coordinate-line-index.cfv2",
+      "sha256": "fbe16731e8c3ee600577090e9da6a470a177cfaa871b66a71f237f09d9bdce22",
+      "vertices": 5,
+      "edges": 5,
+      "faces": 1,
+      "main_bytes": 1981,
+      "fbb": 1781,
+      "packet_ranges": [
+        [
+          1005,
+          1781
+        ]
+      ],
+      "edge_ranges": [
+        [
+          1792,
+          1812
+        ],
+        [
+          1812,
+          1832
+        ],
+        [
+          1843,
+          1863
+        ],
+        [
+          1863,
+          1875
+        ],
+        [
+          1875,
+          1887
+        ]
+      ]
+    },
+    {
+      "path": "native-map-coordinate-extension.cfv2",
+      "sha256": "1673ffcfeb112e04a166a85825dea2183079b778fa2744503624709dd7d9d3f0",
+      "vertices": 5,
+      "edges": 5,
+      "faces": 1,
+      "main_bytes": 1981,
+      "fbb": 1781,
+      "packet_ranges": [
+        [
+          1005,
+          1781
+        ]
+      ],
+      "edge_ranges": [
+        [
+          1792,
+          1812
+        ],
+        [
+          1812,
+          1832
+        ],
+        [
+          1843,
+          1863
+        ],
+        [
+          1863,
+          1875
+        ],
+        [
+          1875,
+          1887
+        ]
+      ]
+    },
+    {
+      "path": "native-map-coordinate-sphere.cfv2",
+      "sha256": "72dac3bacd7b3340a945c9b35b0ac16dbf373c03cc82302919243f4d4dbbb1e0",
+      "vertices": 5,
+      "edges": 5,
+      "faces": 1,
+      "main_bytes": 1981,
+      "fbb": 1781,
+      "packet_ranges": [
+        [
+          1005,
+          1781
+        ]
+      ],
+      "edge_ranges": [
+        [
+          1792,
+          1812
+        ],
+        [
+          1812,
+          1832
+        ],
+        [
+          1843,
+          1863
+        ],
+        [
+          1863,
+          1875
+        ],
+        [
+          1875,
+          1887
+        ]
+      ]
+    },
+    {
+      "path": "native-map-coordinate-traversal-forward.cfv2",
+      "sha256": "5756c86d02dfe75798c7d6e3546c401df1564f157f918bcad2e61817ea8fa29e",
+      "vertices": 5,
+      "edges": 5,
+      "faces": 1,
+      "main_bytes": 1981,
+      "fbb": 1781,
+      "packet_ranges": [
+        [
+          1005,
+          1781
+        ]
+      ],
+      "edge_ranges": [
+        [
+          1792,
+          1812
+        ],
+        [
+          1812,
+          1832
+        ],
+        [
+          1843,
+          1863
+        ],
+        [
+          1863,
+          1875
+        ],
+        [
+          1875,
+          1887
+        ]
+      ]
+    },
+    {
+      "path": "native-map-coordinate-reversed-edge.cfv2",
+      "sha256": "a257337530cd0d13f2552677f2c0785f2d869a16174c358f4c5d772d04538622",
+      "vertices": 5,
+      "edges": 5,
+      "faces": 1,
+      "main_bytes": 1981,
+      "fbb": 1781,
+      "packet_ranges": [
+        [
+          1005,
+          1781
+        ]
+      ],
+      "edge_ranges": [
+        [
+          1792,
+          1812
+        ],
+        [
+          1812,
+          1832
+        ],
+        [
+          1843,
+          1863
+        ],
+        [
+          1863,
+          1875
+        ],
+        [
+          1875,
+          1887
+        ]
+      ]
+    },
+    {
+      "path": "native-map-coordinate-sense-mismatch.cfv2",
+      "sha256": "56bb8f0350d5ef2b48be92ec2a2cf2ff03b241bfcd3e2f7f139421105985654e",
+      "vertices": 5,
+      "edges": 5,
+      "faces": 1,
+      "main_bytes": 1981,
+      "fbb": 1781,
+      "packet_ranges": [
+        [
+          1005,
+          1781
+        ]
+      ],
+      "edge_ranges": [
+        [
+          1792,
+          1812
+        ],
+        [
+          1812,
+          1832
+        ],
+        [
+          1843,
+          1863
+        ],
+        [
+          1863,
+          1875
+        ],
+        [
+          1875,
+          1887
+        ]
+      ]
+    }
+  ]
+}

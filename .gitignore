@@ -1,0 +1,12 @@
+/data/
+/.internal/
+/.env
+/.env.local
+__pycache__/
+*.pyc
+/target/
+/fuzz/target/
+/fuzz/corpus/
+/fuzz/artifacts/
+/fuzz/coverage/
+/reports/

@@ -1,0 +1,618 @@
+{
+  "revision": 2,
+  "population_id": 0,
+  "run": 0,
+  "factory_source": {
+    "stream_id": 3,
+    "logical_offset": 0,
+    "length": 1552,
+    "file_ranges": [
+      {
+        "offset": 3021,
+        "length": 776
+      },
+      {
+        "offset": 2238,
+        "length": 776
+      }
+    ]
+  },
+  "raw_factory_hex": "a5033434020000050d090c0000000000000000000000000000f03f0d090c0000000000000000000000000000f03f010000000000000000000000000000000000000000000000000000000000000000000000000000f03f0000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000008400000000000000000000000000000f03f00000000000000000000000000000000000000000000f03f000000000000f03f9a9999999999c93f000000000000f03f00000000000000409a9999999999d93f000000000000f03f0000000000000840333333333333e33f0000000000000040000000000000000000000000000000000000000000000040000000000000f03f9a9999999999d93f000000000000004000000000000000409a9999999999e93f00000000000000400000000000000840333333333333f33f0000000000000840000000000000000000000000000000000000000000000840000000000000f03f333333333333e33f00000000000008400000000000000040333333333333f33f00000000000008400000000000000840cdccccccccccfc3f050505050000000000000000000000000000f03f0000000000000000000000000000f03f000000000000f03f0000000000000000000000000000f03f000000000000000001010100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010001000707b20319320505000000000000e03f000000000000e03f000000000000d03f0000000000000000000000000000f03f010000000000000080b2031812050905000000000000f03f000000000000f03fb203181a050d88000000000000e0bf000000000000e03f000000000000f03fb2031812051111000000000000e03f000000000000f03fb20318120515110000000000000000000000000000e03fb203243e11821d210b870d0000000000000000000000000000f03f00000000000000000000000000000000000000000000f03f000000000000f03f0000000000000000b203243e05821d210b870d0000000000000000000000000000f03f00000000000000000000000000000000000000000000f03f000000000000f03f0000000000000000b203243e05821d210b870d0000000000000000000000000000f03f0000000000000000000000000000e0bf000000000000e03f000000000000f03f000000000000e03fb203243e05821d210b870d0000000000000000000000000000f03f0000000000000000000000000000e03f000000000000f03f0000000000000040000000000000f0bfb203243e058231210b870d0000000000000000000000000000f03f00000000000000000000000000000000000000000000e03f00000000000000400000000000000000b203061d1983294945009a9999999999d93f9a9999999999c93f0000000000e05840b203061d05832d4d4900cdccccccccccec3f666666666666e63f0000000000e05840b203061d05832d4d49009a9999999999d93f00000000000000000000000000e05840b203061d058331514d00cdccccccccccec3f000000000000f03f0000000000e05840b203061d058331514d009a9999999999d93f000000000000e0bf0000000000e05840b203061d058335555100cdccccccccccec3f000000000000e03f0000000000e05840b203061d0583355551009a9999999999d93f000000000000f03f0000000000e05840b203061d058339595500cdccccccccccec3f000000000000e03f0000000000e05840b203061d0583395969009a9999999999d93f000000000000e03f0000000000e05840b203061d05833d5d6d00cdccccccccccec3f00000000000000000000000000e05840b3035d0204430300b2035d02050300b2035d02050300b2035d02050300b2035e0905045a110d0450044f21b2035e0905045a110d044f044e21b2035e0905045a110d044e044d21b2035e0905045a1107044d044c21b2035e0905045a0321044c044b21b2035d02050300b3035f05045f8204c70305b203621c058b04c7046504c6046404c5046304c4046204c3046104c88541ff3700",
+  "qualified_faces": 1,
+  "qualified_edges": 5,
+  "qualified_vertices": 5,
+  "uses": [
+    {
+      "face_ordinal": 0,
+      "edge_ordinal": 1,
+      "face_tag": 200,
+      "edge_tag": 101,
+      "loop_tag": 201,
+      "loop_slot": 1,
+      "uv_tag": 3,
+      "support_tag": 1,
+      "representation_tag": 11,
+      "parameter_map": "native:s3:map794",
+      "map_operand": 1,
+      "support": {
+        "kind": "nurbs",
+        "carrier": "native:s3:nurbs0"
+      },
+      "geometry": {
+        "kind": "line",
+        "fields": {
+          "allocation_operand": {
+            "value": 2,
+            "encoding": "backward_distance",
+            "raw": [
+              9
+            ]
+          },
+          "control": 5,
+          "geometry": {
+            "kind": "constant_u",
+            "u": 1.0,
+            "range": [
+              0.0,
+              1.0
+            ]
+          }
+        }
+      },
+      "parameter_range": [
+        0.0,
+        1.0
+      ],
+      "program_range": [
+        0.0,
+        1.0
+      ],
+      "orientation": {
+        "control": 65,
+        "flags": 7,
+        "face_control": 5,
+        "edge_forward": true,
+        "uv_forward": true,
+        "start_vertex_tag": 97,
+        "end_vertex_tag": 98
+      },
+      "edge_trim": {
+        "parameters": [
+          0.0,
+          1.0
+        ],
+        "vertex_tags": [
+          97,
+          98
+        ],
+        "endpoints": [
+          {
+            "allocation_tag": 22,
+            "references": [
+              11,
+              3,
+              4
+            ],
+            "control": 0,
+            "uv_parameters": [
+              0.0,
+              0.4
+            ],
+            "opaque_map_coordinate_hex": "0000000000e05840",
+            "source": {
+              "stream_id": 3,
+              "logical_offset": 1130,
+              "length": 34,
+              "file_ranges": [
+                {
+                  "offset": 2592,
+                  "length": 34
+                }
+              ]
+            },
+            "raw_frame_hex": "b203061d05832d4d49009a9999999999d93f00000000000000000000000000e05840"
+          },
+          {
+            "allocation_tag": 23,
+            "references": [
+              11,
+              3,
+              4
+            ],
+            "control": 0,
+            "uv_parameters": [
+              1.0,
+              0.9
+            ],
+            "opaque_map_coordinate_hex": "0000000000e05840",
+            "source": {
+              "stream_id": 3,
+              "logical_offset": 1164,
+              "length": 34,
+              "file_ranges": [
+                {
+                  "offset": 2626,
+                  "length": 34
+                }
+              ]
+            },
+            "raw_frame_hex": "b203061d058331514d00cdccccccccccec3f000000000000f03f0000000000e05840"
+          }
+        ]
+      },
+      "uv_source": {
+        "stream_id": 3,
+        "logical_offset": 627,
+        "length": 23,
+        "file_ranges": [
+          {
+            "offset": 3648,
+            "length": 23
+          }
+        ]
+      },
+      "face_source": {
+        "stream_id": 3,
+        "logical_offset": 1508,
+        "length": 11,
+        "file_ranges": [
+          {
+            "offset": 2970,
+            "length": 11
+          }
+        ]
+      },
+      "loop_source": {
+        "stream_id": 3,
+        "logical_offset": 1519,
+        "length": 33,
+        "file_ranges": [
+          {
+            "offset": 2981,
+            "length": 33
+          }
+        ]
+      },
+      "edge_source": {
+        "stream_id": 3,
+        "logical_offset": 1445,
+        "length": 14,
+        "file_ranges": [
+          {
+            "offset": 2907,
+            "length": 14
+          }
+        ]
+      }
+    },
+    {
+      "face_ordinal": 0,
+      "edge_ordinal": 2,
+      "face_tag": 200,
+      "edge_tag": 102,
+      "loop_tag": 201,
+      "loop_slot": 2,
+      "uv_tag": 4,
+      "support_tag": 1,
+      "representation_tag": 12,
+      "parameter_map": "native:s3:map861",
+      "map_operand": 1,
+      "support": {
+        "kind": "nurbs",
+        "carrier": "native:s3:nurbs0"
+      },
+      "geometry": {
+        "kind": "line",
+        "fields": {
+          "allocation_operand": {
+            "value": 3,
+            "encoding": "backward_distance",
+            "raw": [
+              13
+            ]
+          },
+          "control": 136,
+          "geometry": {
+            "kind": "undirected_axis",
+            "origin": [
+              0.5,
+              1.0
+            ],
+            "axis": 0,
+            "range": [
+              -0.5,
+              0.5
+            ]
+          }
+        }
+      },
+      "parameter_range": [
+        -0.5,
+        0.5
+      ],
+      "program_range": [
+        -0.5,
+        0.5
+      ],
+      "orientation": {
+        "control": 65,
+        "flags": 7,
+        "face_control": 5,
+        "edge_forward": true,
+        "uv_forward": true,
+        "start_vertex_tag": 98,
+        "end_vertex_tag": 99
+      },
+      "edge_trim": {
+        "parameters": [
+          -0.5,
+          0.5
+        ],
+        "vertex_tags": [
+          98,
+          99
+        ],
+        "endpoints": [
+          {
+            "allocation_tag": 24,
+            "references": [
+              12,
+              4,
+              5
+            ],
+            "control": 0,
+            "uv_parameters": [
+              -0.5,
+              0.4
+            ],
+            "opaque_map_coordinate_hex": "0000000000e05840",
+            "source": {
+              "stream_id": 3,
+              "logical_offset": 1198,
+              "length": 34,
+              "file_ranges": [
+                {
+                  "offset": 2660,
+                  "length": 34
+                }
+              ]
+            },
+            "raw_frame_hex": "b203061d058331514d009a9999999999d93f000000000000e0bf0000000000e05840"
+          },
+          {
+            "allocation_tag": 25,
+            "references": [
+              12,
+              4,
+              5
+            ],
+            "control": 0,
+            "uv_parameters": [
+              0.5,
+              0.9
+            ],
+            "opaque_map_coordinate_hex": "0000000000e05840",
+            "source": {
+              "stream_id": 3,
+              "logical_offset": 1232,
+              "length": 34,
+              "file_ranges": [
+                {
+                  "offset": 2694,
+                  "length": 34
+                }
+              ]
+            },
+            "raw_frame_hex": "b203061d058335555100cdccccccccccec3f000000000000e03f0000000000e05840"
+          }
+        ]
+      },
+      "uv_source": {
+        "stream_id": 3,
+        "logical_offset": 650,
+        "length": 31,
+        "file_ranges": [
+          {
+            "offset": 3671,
+            "length": 31
+          }
+        ]
+      },
+      "face_source": {
+        "stream_id": 3,
+        "logical_offset": 1508,
+        "length": 11,
+        "file_ranges": [
+          {
+            "offset": 2970,
+            "length": 11
+          }
+        ]
+      },
+      "loop_source": {
+        "stream_id": 3,
+        "logical_offset": 1519,
+        "length": 33,
+        "file_ranges": [
+          {
+            "offset": 2981,
+            "length": 33
+          }
+        ]
+      },
+      "edge_source": {
+        "stream_id": 3,
+        "logical_offset": 1459,
+        "length": 14,
+        "file_ranges": [
+          {
+            "offset": 2921,
+            "length": 14
+          }
+        ]
+      }
+    },
+    {
+      "face_ordinal": 0,
+      "edge_ordinal": 3,
+      "face_tag": 200,
+      "edge_tag": 103,
+      "loop_tag": 201,
+      "loop_slot": 3,
+      "uv_tag": 5,
+      "support_tag": 1,
+      "representation_tag": 13,
+      "parameter_map": "native:s3:map928",
+      "map_operand": 1,
+      "support": {
+        "kind": "nurbs",
+        "carrier": "native:s3:nurbs0"
+      },
+      "geometry": {
+        "kind": "line",
+        "fields": {
+          "allocation_operand": {
+            "value": 4,
+            "encoding": "backward_distance",
+            "raw": [
+              17
+            ]
+          },
+          "control": 17,
+          "geometry": {
+            "kind": "constant_u",
+            "u": 0.0,
+            "range": [
+              0.5,
+              1.0
+            ]
+          }
+        }
+      },
+      "parameter_range": [
+        0.5,
+        1.0
+      ],
+      "program_range": [
+        0.5,
+        1.0
+      ],
+      "orientation": {
+        "control": 65,
+        "flags": 3,
+        "face_control": 5,
+        "edge_forward": true,
+        "uv_forward": false,
+        "start_vertex_tag": 99,
+        "end_vertex_tag": 105
+      },
+      "edge_trim": {
+        "parameters": [
+          1.0,
+          0.5
+        ],
+        "vertex_tags": [
+          99,
+          105
+        ],
+        "endpoints": [
+          {
+            "allocation_tag": 26,
+            "references": [
+              13,
+              5,
+              6
+            ],
+            "control": 0,
+            "uv_parameters": [
+              1.0,
+              0.4
+            ],
+            "opaque_map_coordinate_hex": "0000000000e05840",
+            "source": {
+              "stream_id": 3,
+              "logical_offset": 1266,
+              "length": 34,
+              "file_ranges": [
+                {
+                  "offset": 2728,
+                  "length": 34
+                }
+              ]
+            },
+            "raw_frame_hex": "b203061d0583355551009a9999999999d93f000000000000f03f0000000000e05840"
+          },
+          {
+            "allocation_tag": 27,
+            "references": [
+              13,
+              5,
+              6
+            ],
+            "control": 0,
+            "uv_parameters": [
+              0.5,
+              0.9
+            ],
+            "opaque_map_coordinate_hex": "0000000000e05840",
+            "source": {
+              "stream_id": 3,
+              "logical_offset": 1300,
+              "length": 34,
+              "file_ranges": [
+                {
+                  "offset": 2762,
+                  "length": 34
+                }
+              ]
+            },
+            "raw_frame_hex": "b203061d058339595500cdccccccccccec3f000000000000e03f0000000000e05840"
+          }
+        ]
+      },
+      "uv_source": {
+        "stream_id": 3,
+        "logical_offset": 681,
+        "length": 23,
+        "file_ranges": [
+          {
+            "offset": 3702,
+            "length": 23
+          }
+        ]
+      },
+      "face_source": {
+        "stream_id": 3,
+        "logical_offset": 1508,
+        "length": 11,
+        "file_ranges": [
+          {
+            "offset": 2970,
+            "length": 11
+          }
+        ]
+      },
+      "loop_source": {
+        "stream_id": 3,
+        "logical_offset": 1519,
+        "length": 33,
+        "file_ranges": [
+          {
+            "offset": 2981,
+            "length": 33
+          }
+        ]
+      },
+      "edge_source": {
+        "stream_id": 3,
+        "logical_offset": 1473,
+        "length": 14,
+        "file_ranges": [
+          {
+            "offset": 2935,
+            "length": 14
+          }
+        ]
+      }
+    },
+    {
+      "face_ordinal": 0,
+      "edge_ordinal": 4,
+      "face_tag": 200,
+      "edge_tag": 104,
+      "loop_tag": 201,
+      "loop_slot": 4,
+      "uv_tag": 6,
+      "support_tag": 1,
+      "representation_tag": 14,
+      "parameter_map": "native:s3:map995",
+      "map_operand": 1,
+      "support": {
+        "kind": "nurbs",
+        "carrier": "native:s3:nurbs0"
+      },
+      "geometry": {
+        "kind": "line",
+        "fields": {
+          "allocation_operand": {
+            "value": 5,
+            "encoding": "backward_distance",
+            "raw": [
+              21
+            ]
+          },
+          "control": 17,
+          "geometry": {
+            "kind": "constant_u",
+            "u": 0.0,
+            "range": [
+              0.0,
+              0.5
+            ]
+          }
+        }
+      },
+      "parameter_range": [
+        0.0,
+        0.5
+      ],
+      "program_range": [
+        0.0,
+        0.5
+      ],
+      "orientation": {
+        "control": 65,
+        "flags": 3,
+        "face_control": 5,
+        "edge_forward": true,
+        "uv_forward": false,
+        "start_vertex_tag": 105,
+        "end_vertex_tag": 96
+      },
+      "uv_source": {
+        "stream_id": 3,
+        "logical_offset": 704,
+        "length": 23,
+        "file_ranges": [
+          {
+            "offset": 3725,
+            "length": 23
+          }
+        ]
+      },
+      "face_source": {
+        "stream_id": 3,
+        "logical_offset": 1508,
+        "length": 11,
+        "file_ranges": [
+          {
+            "offset": 2970,
+            "length": 11
+          }
+        ]
+      },
+      "loop_source": {
+        "stream_id": 3,
+        "logical_offset": 1519,
+        "length": 33,
+        "file_ranges": [
+          {
+            "offset": 2981,
+            "length": 33
+          }
+        ]
+      },
+      "edge_source": {
+        "stream_id": 3,
+        "logical_offset": 1487,
+        "length": 14,
+        "file_ranges": [
+          {
+            "offset": 2949,
+            "length": 14
+          }
+        ]
+      }
+    }
+  ]
+}

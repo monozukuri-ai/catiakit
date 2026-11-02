@@ -1,0 +1,264 @@
+{
+  "provenance": "constructed, not CATIA authored",
+  "fixtures": [
+    {
+      "path": "native-allocation-uv.cfv2",
+      "sha256": "37810f4c990b1dac2722a1e98976088771b9c4b87adccf71cadc163d9762562b",
+      "vertices": 5,
+      "edges": 5,
+      "faces": 1,
+      "main_bytes": 1981,
+      "fbb": 1781,
+      "packet_ranges": [
+        [
+          1005,
+          1781
+        ]
+      ],
+      "edge_ranges": [
+        [
+          1792,
+          1812
+        ],
+        [
+          1812,
+          1832
+        ],
+        [
+          1843,
+          1863
+        ],
+        [
+          1863,
+          1875
+        ],
+        [
+          1875,
+          1887
+        ]
+      ]
+    },
+    {
+      "path": "wrong-allocation-endpoint.cfv2",
+      "sha256": "8abbffe09006fa4929995fb9a759320bdb9f0fcb1e3ed97669374b4f29a0a570",
+      "vertices": 5,
+      "edges": 5,
+      "faces": 1,
+      "main_bytes": 1981,
+      "fbb": 1781,
+      "packet_ranges": [
+        [
+          1005,
+          1781
+        ]
+      ],
+      "edge_ranges": [
+        [
+          1792,
+          1812
+        ],
+        [
+          1812,
+          1832
+        ],
+        [
+          1843,
+          1863
+        ],
+        [
+          1863,
+          1875
+        ],
+        [
+          1875,
+          1887
+        ]
+      ]
+    },
+    {
+      "path": "wrong-allocation-support.cfv2",
+      "sha256": "b0e8e5fab4ac3a9194095bd458fd514b2d2d9b43a9884c13bbdc2976a61904fa",
+      "vertices": 5,
+      "edges": 5,
+      "faces": 1,
+      "main_bytes": 1981,
+      "fbb": 1781,
+      "packet_ranges": [
+        [
+          1005,
+          1781
+        ]
+      ],
+      "edge_ranges": [
+        [
+          1792,
+          1812
+        ],
+        [
+          1812,
+          1832
+        ],
+        [
+          1843,
+          1863
+        ],
+        [
+          1863,
+          1875
+        ],
+        [
+          1875,
+          1887
+        ]
+      ]
+    },
+    {
+      "path": "native-allocation-uv-outside-domain.cfv2",
+      "sha256": "b8caf103a3e824fdb4838a29ede764fa11c945941a402055b680242221949307",
+      "vertices": 5,
+      "edges": 5,
+      "faces": 1,
+      "main_bytes": 1981,
+      "fbb": 1781,
+      "packet_ranges": [
+        [
+          1005,
+          1781
+        ]
+      ],
+      "edge_ranges": [
+        [
+          1792,
+          1812
+        ],
+        [
+          1812,
+          1832
+        ],
+        [
+          1843,
+          1863
+        ],
+        [
+          1863,
+          1875
+        ],
+        [
+          1875,
+          1887
+        ]
+      ]
+    },
+    {
+      "path": "long-allocation-header.cfv2",
+      "sha256": "47b56b0368ca6aecd0ac4758619390a0a80d3eb5ddc2d786f36e4807571aa8a0",
+      "vertices": 5,
+      "edges": 5,
+      "faces": 1,
+      "main_bytes": 1981,
+      "fbb": 1781,
+      "packet_ranges": [
+        [
+          1005,
+          1781
+        ]
+      ],
+      "edge_ranges": [
+        [
+          1792,
+          1812
+        ],
+        [
+          1812,
+          1832
+        ],
+        [
+          1843,
+          1863
+        ],
+        [
+          1863,
+          1875
+        ],
+        [
+          1875,
+          1887
+        ]
+      ]
+    },
+    {
+      "path": "ambiguous-allocation-factories.cfv2",
+      "sha256": "99aebef343b01d6ce3c17c7f3b5e77ba9b13a198a2589d1b1785e640fadc51c2",
+      "vertices": 5,
+      "edges": 5,
+      "faces": 1,
+      "main_bytes": 1981,
+      "fbb": 1781,
+      "packet_ranges": [
+        [
+          1005,
+          1781
+        ]
+      ],
+      "edge_ranges": [
+        [
+          1792,
+          1812
+        ],
+        [
+          1812,
+          1832
+        ],
+        [
+          1843,
+          1863
+        ],
+        [
+          1863,
+          1875
+        ],
+        [
+          1875,
+          1887
+        ]
+      ]
+    },
+    {
+      "path": "allocation-opaque-decoy.cfv2",
+      "sha256": "935d3ebb4c40adf36b2fa164e96cc0a471d636f84cd63ef62cc2d1353ea335e8",
+      "vertices": 5,
+      "edges": 5,
+      "faces": 1,
+      "main_bytes": 1981,
+      "fbb": 1781,
+      "packet_ranges": [
+        [
+          1005,
+          1781
+        ]
+      ],
+      "edge_ranges": [
+        [
+          1792,
+          1812
+        ],
+        [
+          1812,
+          1832
+        ],
+        [
+          1843,
+          1863
+        ],
+        [
+          1863,
+          1875
+        ],
+        [
+          1875,
+          1887
+        ]
+      ]
+    }
+  ]
+}

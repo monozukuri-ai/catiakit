@@ -1,0 +1,439 @@
+{
+  "fixtures": [
+    {
+      "path": "metadata.cfv2",
+      "streams": [
+        {
+          "name": "CATPropertySets",
+          "descriptor_relative_offset": 81,
+          "extents": [
+            [
+              453,
+              381
+            ],
+            [
+              64,
+              382
+            ]
+          ],
+          "descriptor_file_offset": 6105
+        },
+        {
+          "name": "CATPreview",
+          "descriptor_relative_offset": 228,
+          "extents": [
+            [
+              1176,
+              327
+            ],
+            [
+              841,
+              328
+            ]
+          ],
+          "descriptor_file_offset": 6252
+        },
+        {
+          "name": "CATStorageProperty",
+          "descriptor_relative_offset": 391,
+          "extents": [
+            [
+              1646,
+              128
+            ],
+            [
+              1510,
+              129
+            ]
+          ],
+          "descriptor_file_offset": 6415
+        },
+        {
+          "name": "Data",
+          "descriptor_relative_offset": 526,
+          "extents": [
+            [
+              2610,
+              821
+            ],
+            [
+              1781,
+              822
+            ]
+          ],
+          "descriptor_file_offset": 6550
+        },
+        {
+          "name": "CATPropertySets",
+          "descriptor_relative_offset": 683,
+          "extents": [
+            [
+              3538,
+              92
+            ],
+            [
+              3438,
+              93
+            ]
+          ],
+          "descriptor_file_offset": 6707
+        },
+        {
+          "name": "CATStorageProperty",
+          "descriptor_relative_offset": 846,
+          "extents": [
+            [
+              3773,
+              129
+            ],
+            [
+              3637,
+              129
+            ]
+          ],
+          "descriptor_file_offset": 6870
+        },
+        {
+          "name": "CATStorageProperty",
+          "descriptor_relative_offset": 1009,
+          "extents": [
+            [
+              4040,
+              124
+            ],
+            [
+              3909,
+              124
+            ]
+          ],
+          "descriptor_file_offset": 7033
+        },
+        {
+          "name": "CATStorageProperty",
+          "descriptor_relative_offset": 1172,
+          "extents": [
+            [
+              4298,
+              120
+            ],
+            [
+              4171,
+              120
+            ]
+          ],
+          "descriptor_file_offset": 7196
+        },
+        {
+          "name": "CATStorageProperty",
+          "descriptor_relative_offset": 1335,
+          "extents": [
+            [
+              4557,
+              125
+            ],
+            [
+              4425,
+              125
+            ]
+          ],
+          "descriptor_file_offset": 7359
+        },
+        {
+          "name": "CATStorageProperty",
+          "descriptor_relative_offset": 1498,
+          "extents": [
+            [
+              4822,
+              126
+            ],
+            [
+              4689,
+              126
+            ]
+          ],
+          "descriptor_file_offset": 7522
+        },
+        {
+          "name": "CATPropertySets",
+          "descriptor_relative_offset": 1655,
+          "extents": [
+            [
+              4997,
+              35
+            ],
+            [
+              4955,
+              35
+            ]
+          ],
+          "descriptor_file_offset": 7679
+        },
+        {
+          "name": "CATDocumentProperty",
+          "descriptor_relative_offset": 1820,
+          "extents": [
+            [
+              5532,
+              485
+            ],
+            [
+              5039,
+              486
+            ]
+          ],
+          "descriptor_file_offset": 7844
+        }
+      ]
+    },
+    {
+      "path": "absent.cfv2",
+      "streams": [
+        {
+          "name": "CATPropertySets",
+          "descriptor_relative_offset": 81,
+          "extents": [
+            [
+              163,
+              91
+            ],
+            [
+              64,
+              92
+            ]
+          ],
+          "descriptor_file_offset": 587
+        },
+        {
+          "name": "CATStorageProperty",
+          "descriptor_relative_offset": 244,
+          "extents": [
+            [
+              384,
+              115
+            ],
+            [
+              261,
+              116
+            ]
+          ],
+          "descriptor_file_offset": 750
+        }
+      ]
+    },
+    {
+      "path": "conflict.cfv2",
+      "streams": [
+        {
+          "name": "CATPropertySets",
+          "descriptor_relative_offset": 81,
+          "extents": [
+            [
+              164,
+              92
+            ],
+            [
+              64,
+              93
+            ]
+          ],
+          "descriptor_file_offset": 543
+        },
+        {
+          "name": "CATPropertySets",
+          "descriptor_relative_offset": 238,
+          "extents": [
+            [
+              363,
+              92
+            ],
+            [
+              263,
+              93
+            ]
+          ],
+          "descriptor_file_offset": 700
+        }
+      ]
+    },
+    {
+      "path": "ambiguous.cfv2",
+      "streams": [
+        {
+          "name": "CATPreview",
+          "descriptor_relative_offset": 71,
+          "extents": [
+            [
+              390,
+              318
+            ],
+            [
+              64,
+              319
+            ]
+          ],
+          "descriptor_file_offset": 1437
+        },
+        {
+          "name": "CATPreview",
+          "descriptor_relative_offset": 218,
+          "extents": [
+            [
+              1041,
+              318
+            ],
+            [
+              715,
+              319
+            ]
+          ],
+          "descriptor_file_offset": 1584
+        }
+      ]
+    },
+    {
+      "path": "storage-conflict.cfv2",
+      "streams": [
+        {
+          "name": "CATStorageProperty",
+          "descriptor_relative_offset": 87,
+          "extents": [
+            [
+              200,
+              129
+            ],
+            [
+              64,
+              129
+            ]
+          ],
+          "descriptor_file_offset": 1209
+        },
+        {
+          "name": "CATStorageProperty",
+          "descriptor_relative_offset": 250,
+          "extents": [
+            [
+              475,
+              132
+            ],
+            [
+              336,
+              132
+            ]
+          ],
+          "descriptor_file_offset": 1372
+        },
+        {
+          "name": "CATStorageProperty",
+          "descriptor_relative_offset": 413,
+          "extents": [
+            [
+              741,
+              120
+            ],
+            [
+              614,
+              120
+            ]
+          ],
+          "descriptor_file_offset": 1535
+        },
+        {
+          "name": "CATStorageProperty",
+          "descriptor_relative_offset": 576,
+          "extents": [
+            [
+              995,
+              120
+            ],
+            [
+              868,
+              120
+            ]
+          ],
+          "descriptor_file_offset": 1698
+        }
+      ]
+    },
+    {
+      "path": "other-kind.cfv2",
+      "streams": [
+        {
+          "name": "CATStorageProperty",
+          "descriptor_relative_offset": 87,
+          "extents": [
+            [
+              203,
+              132
+            ],
+            [
+              64,
+              132
+            ]
+          ],
+          "descriptor_file_offset": 1362
+        },
+        {
+          "name": "CATStorageProperty",
+          "descriptor_relative_offset": 250,
+          "extents": [
+            [
+              472,
+              122
+            ],
+            [
+              342,
+              123
+            ]
+          ],
+          "descriptor_file_offset": 1525
+        },
+        {
+          "name": "CATPropertySets",
+          "descriptor_relative_offset": 407,
+          "extents": [
+            [
+              692,
+              83
+            ],
+            [
+              601,
+              84
+            ]
+          ],
+          "descriptor_file_offset": 1682
+        },
+        {
+          "name": "CATDocumentProperty",
+          "descriptor_relative_offset": 572,
+          "extents": [
+            [
+              1029,
+              239
+            ],
+            [
+              782,
+              240
+            ]
+          ],
+          "descriptor_file_offset": 1847
+        }
+      ]
+    }
+  ],
+  "jpeg_sha256": "ec0b219a320f704f0b89f9227965ea20742fb79b13c8887bdb6df1de11ebea70",
+  "jpeg_bytes": 633,
+  "width": 2,
+  "height": 3,
+  "saved_name": "fixture-saved-name.CATPart",
+  "document_id_hex": "9a3c7a00000013a04f656324000009b4",
+  "container_id_hex": "9a3c7a00000013a04f656324000009b9",
+  "generic_path": "E:\\models\\fixture.CATPart",
+  "link_payload_hex": {
+    "generic": "016f000000000d47656e657269634c6f636174653100000005446f6349642900010446696c6507434154506172741900453a5c6d6f64656c735c666978747572652e43415450617274",
+    "catia": "1103000102030405060708090a0b0c0d0e0f000000000543415449412400000005446f6349641c00010446696c6504666561740f005061727444657369676e2e66656174",
+    "catwin": "05556e646566070000000643415457696e1c00000005446f6349641400010446696c650d434154556e6c6f616461626c65",
+    "non_utf8": "110300000000000000000000000000000000000000000543415449412f00000005446f6349642700010446696c650a43415450726f647563741400433a5cfffe5c61736d2e43415450726f64756374",
+    "unknown": "3f3f"
+  }
+}

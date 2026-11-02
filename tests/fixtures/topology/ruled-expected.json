@@ -1,0 +1,244 @@
+{
+  "provenance": "constructed grammar fixtures, not CATIA-authored",
+  "fixtures": [
+    {
+      "path": "native-ruled-patch.cfv2",
+      "sha256": "526cebeadf968ce0ae21cba05a87311e131160bcae8af5a3f225208d737c91b2",
+      "vertices": 4,
+      "edges": 4,
+      "faces": 1,
+      "main_bytes": 4014,
+      "fbb": 3801,
+      "packet_ranges": [
+        [
+          2061,
+          3801
+        ]
+      ],
+      "edge_ranges": [
+        [
+          3812,
+          3840
+        ],
+        [
+          3840,
+          3868
+        ],
+        [
+          3879,
+          3907
+        ],
+        [
+          3907,
+          3935
+        ]
+      ]
+    },
+    {
+      "path": "ambiguous-ruled-patch.cfv2",
+      "sha256": "a52a3f481cc03a5a4e770772a43299ae91b915969809b7d730867ba6d271e455",
+      "vertices": 4,
+      "edges": 4,
+      "faces": 1,
+      "main_bytes": 4014,
+      "fbb": 3801,
+      "packet_ranges": [
+        [
+          2061,
+          3801
+        ]
+      ],
+      "edge_ranges": [
+        [
+          3812,
+          3840
+        ],
+        [
+          3840,
+          3868
+        ],
+        [
+          3879,
+          3907
+        ],
+        [
+          3907,
+          3935
+        ]
+      ]
+    },
+    {
+      "path": "off-ruled-patch.cfv2",
+      "sha256": "552392ea8c354e6edb2e104bd918e98a6e54c7a72652e48e50bc58547640f158",
+      "vertices": 4,
+      "edges": 4,
+      "faces": 1,
+      "main_bytes": 4014,
+      "fbb": 3801,
+      "packet_ranges": [
+        [
+          2061,
+          3801
+        ]
+      ],
+      "edge_ranges": [
+        [
+          3812,
+          3840
+        ],
+        [
+          3840,
+          3868
+        ],
+        [
+          3879,
+          3907
+        ],
+        [
+          3907,
+          3935
+        ]
+      ]
+    },
+    {
+      "path": "invalid-ruled-tail.cfv2",
+      "sha256": "3554ba3104949d146c55018f63d8d5f2968e5c5211a5abdc9b8b284b290ced35",
+      "vertices": 4,
+      "edges": 4,
+      "faces": 1,
+      "main_bytes": 4014,
+      "fbb": 3801,
+      "packet_ranges": [
+        [
+          2061,
+          3801
+        ]
+      ],
+      "edge_ranges": [
+        [
+          3812,
+          3840
+        ],
+        [
+          3840,
+          3868
+        ],
+        [
+          3879,
+          3907
+        ],
+        [
+          3907,
+          3935
+        ]
+      ]
+    },
+    {
+      "path": "native-cone-shift.cfv2",
+      "sha256": "08e24a0f329fba437d185a01cea19f70a109955fae5ac5bd8d446ee722fca309",
+      "vertices": 3,
+      "edges": 3,
+      "faces": 1,
+      "main_bytes": 2167,
+      "fbb": 1997,
+      "packet_ranges": [
+        [
+          1125,
+          1997
+        ]
+      ],
+      "edge_ranges": [
+        [
+          2008,
+          2036
+        ],
+        [
+          2047,
+          2075
+        ],
+        [
+          2075,
+          2103
+        ]
+      ]
+    },
+    {
+      "path": "native-cone-apex-chart.cfv2",
+      "sha256": "0a0673a2df7cd14f21dfcfe0be3fa0e82e7f6209bfc828f005db625d6e98c513",
+      "vertices": 3,
+      "edges": 3,
+      "faces": 1,
+      "main_bytes": 2167,
+      "fbb": 1997,
+      "packet_ranges": [
+        [
+          1125,
+          1997
+        ]
+      ],
+      "edge_ranges": [
+        [
+          2008,
+          2036
+        ],
+        [
+          2047,
+          2075
+        ],
+        [
+          2075,
+          2103
+        ]
+      ]
+    },
+    {
+      "path": "native-sparse-ellipse.cfv2",
+      "sha256": "568bad21795094e182708eb5b307059f55c84a522fe622c778e1ba3c177284a6",
+      "vertices": 5,
+      "edges": 6,
+      "faces": 3,
+      "main_bytes": 495,
+      "fbb": 321,
+      "packet_ranges": [
+        [
+          177,
+          221
+        ],
+        [
+          221,
+          265
+        ],
+        [
+          265,
+          321
+        ]
+      ],
+      "edge_ranges": [
+        [
+          348,
+          360
+        ],
+        [
+          360,
+          366
+        ],
+        [
+          366,
+          372
+        ],
+        [
+          383,
+          389
+        ],
+        [
+          389,
+          395
+        ],
+        [
+          395,
+          401
+        ]
+      ]
+    }
+  ]
+}

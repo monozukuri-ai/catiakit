@@ -1,0 +1,348 @@
+{
+  "provenance": "constructed grammar fixtures, not native CATIA",
+  "fixtures": [
+    {
+      "path": "native-nurbs-independent-limit.cfv2",
+      "sha256": "0e370332ca4e39be8213d7e4958c58961aed6cf3ce3ff6610f0f64ddba54f506",
+      "vertices": 6,
+      "edges": 7,
+      "faces": 2,
+      "main_bytes": 4412,
+      "fbb": 4121,
+      "packet_ranges": [
+        [
+          2217,
+          3957
+        ],
+        [
+          3957,
+          4121
+        ]
+      ],
+      "edge_ranges": [
+        [
+          4140,
+          4168
+        ],
+        [
+          4168,
+          4196
+        ],
+        [
+          4196,
+          4224
+        ],
+        [
+          4235,
+          4263
+        ],
+        [
+          4263,
+          4269
+        ],
+        [
+          4269,
+          4297
+        ],
+        [
+          4297,
+          4303
+        ]
+      ]
+    },
+    {
+      "path": "ambiguous-nurbs-independent-limit.cfv2",
+      "sha256": "0052fae6677e9b6f4261b2c04db67d53023c7a7d734c5654e3be6e11114ba05e",
+      "vertices": 6,
+      "edges": 7,
+      "faces": 2,
+      "main_bytes": 4412,
+      "fbb": 4121,
+      "packet_ranges": [
+        [
+          2217,
+          3957
+        ],
+        [
+          3957,
+          4121
+        ]
+      ],
+      "edge_ranges": [
+        [
+          4140,
+          4168
+        ],
+        [
+          4168,
+          4196
+        ],
+        [
+          4196,
+          4224
+        ],
+        [
+          4235,
+          4263
+        ],
+        [
+          4263,
+          4269
+        ],
+        [
+          4269,
+          4297
+        ],
+        [
+          4297,
+          4303
+        ]
+      ]
+    },
+    {
+      "path": "off-nurbs-independent-limit.cfv2",
+      "sha256": "8549f52d3f284e5899b500554c58c877332f6b804bb9f0a691368dce8f9a5c7c",
+      "vertices": 6,
+      "edges": 7,
+      "faces": 2,
+      "main_bytes": 4412,
+      "fbb": 4121,
+      "packet_ranges": [
+        [
+          2217,
+          3957
+        ],
+        [
+          3957,
+          4121
+        ]
+      ],
+      "edge_ranges": [
+        [
+          4140,
+          4168
+        ],
+        [
+          4168,
+          4196
+        ],
+        [
+          4196,
+          4224
+        ],
+        [
+          4235,
+          4263
+        ],
+        [
+          4263,
+          4269
+        ],
+        [
+          4269,
+          4297
+        ],
+        [
+          4297,
+          4303
+        ]
+      ]
+    },
+    {
+      "path": "native-masked-cylinder-charts.cfv2",
+      "sha256": "77035962e5f684b25eb80aad1470958a32ffada409666227b3c269ed671cb034",
+      "vertices": 6,
+      "edges": 7,
+      "faces": 2,
+      "main_bytes": 4412,
+      "fbb": 4121,
+      "packet_ranges": [
+        [
+          2217,
+          3957
+        ],
+        [
+          3957,
+          4121
+        ]
+      ],
+      "edge_ranges": [
+        [
+          4140,
+          4168
+        ],
+        [
+          4168,
+          4196
+        ],
+        [
+          4196,
+          4224
+        ],
+        [
+          4235,
+          4263
+        ],
+        [
+          4263,
+          4269
+        ],
+        [
+          4269,
+          4297
+        ],
+        [
+          4297,
+          4303
+        ]
+      ]
+    },
+    {
+      "path": "native-nurbs-owner-gap.cfv2",
+      "sha256": "0dd4749e93671cbe51c8c156f50fba7d2769f539d1eee583739c8b4864835b4e",
+      "vertices": 6,
+      "edges": 7,
+      "faces": 2,
+      "main_bytes": 456,
+      "fbb": 265,
+      "packet_ranges": [
+        [
+          177,
+          233
+        ],
+        [
+          233,
+          265
+        ]
+      ],
+      "edge_ranges": [
+        [
+          284,
+          292
+        ],
+        [
+          292,
+          300
+        ],
+        [
+          300,
+          308
+        ],
+        [
+          319,
+          327
+        ],
+        [
+          327,
+          333
+        ],
+        [
+          333,
+          341
+        ],
+        [
+          341,
+          347
+        ]
+      ]
+    },
+    {
+      "path": "native-unknown-cap.cfv2",
+      "sha256": "e999b184d7c3e7cb76a8dbb5de35fd53adf714affe341a783ef7dfe1db47f40c",
+      "vertices": 5,
+      "edges": 6,
+      "faces": 3,
+      "main_bytes": 495,
+      "fbb": 321,
+      "packet_ranges": [
+        [
+          177,
+          221
+        ],
+        [
+          221,
+          265
+        ],
+        [
+          265,
+          321
+        ]
+      ],
+      "edge_ranges": [
+        [
+          348,
+          360
+        ],
+        [
+          360,
+          366
+        ],
+        [
+          366,
+          372
+        ],
+        [
+          383,
+          389
+        ],
+        [
+          389,
+          395
+        ],
+        [
+          395,
+          401
+        ]
+      ]
+    },
+    {
+      "path": "coelliptic-sparse-arcs.cfv2",
+      "sha256": "fe9b514333532ae97c286ec5f1aef66f5e09a0f15588ce1220a57ef3f6659e7a",
+      "vertices": 5,
+      "edges": 6,
+      "faces": 3,
+      "main_bytes": 495,
+      "fbb": 321,
+      "packet_ranges": [
+        [
+          177,
+          221
+        ],
+        [
+          221,
+          265
+        ],
+        [
+          265,
+          321
+        ]
+      ],
+      "edge_ranges": [
+        [
+          348,
+          360
+        ],
+        [
+          360,
+          366
+        ],
+        [
+          366,
+          372
+        ],
+        [
+          383,
+          389
+        ],
+        [
+          389,
+          395
+        ],
+        [
+          395,
+          401
+        ]
+      ]
+    }
+  ]
+}

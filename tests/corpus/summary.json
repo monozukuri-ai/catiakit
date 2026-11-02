@@ -1,0 +1,46 @@
+{
+  "file_counts": {
+    "catpart": 20,
+    "documentation": 54,
+    "step": 44
+  },
+  "native_saved_by": {
+    "unknown": 5,
+    "last saved by CATIA V5R31 SP5 HF0 (02-25-2022.22.30)": 2,
+    "last saved by CATIA V5R31 SP6 HF0 (04-08-2022.22.30)": 1,
+    "last saved by CATIA V5R29 SP3 HF0 (06-20-2019.20.00)": 11,
+    "last saved by CATIA V5R33 SP0 HF0 (10-13-2022.18.00)": 1
+  },
+  "native_observed_version": {
+    "V5R33 SP0 HF0 (10-13-2022.18.00)": 6,
+    "V5R31 SP5 HF0 (02-25-2022.22.30)": 2,
+    "V5R31 SP6 HF0 (04-08-2022.22.30)": 1,
+    "V5R29 SP3 HF0 (06-20-2019.20.00)": 11
+  },
+  "native_reference_dialect": {
+    "catia:standard-nested": 20
+  },
+  "header_valid_count": 20,
+  "native_without_step_candidates": [
+    "data/corpus/nist-htc/NIST-HTC-PMI-v2/nist_htc_V56R2023_20240530.CATPart"
+  ],
+  "native_with_reference_preview": 15,
+  "native_with_audited_preview": 20,
+  "audited_stream_count": 1474,
+  "fragmented_stream_count": 30,
+  "step_unique_data_sections": 39,
+  "reference_decode_status": {
+    "ok": 20
+  },
+  "reference_decode_loss_codes": {
+    "geometry.unresolved-carriers": 10,
+    "geometry.carrier-summary": 20,
+    "attributes.materials-metadata-not-transferred": 20,
+    "history.object-records-unresolved": 20,
+    "attributes.dimension-quantity-unresolved": 3,
+    "attributes.visualization-unbound": 20,
+    "geometry.face-local-freeform-not-transferred": 7,
+    "topology.boundary-graph-not-emitted": 1
+  },
+  "geometry_comparison": "not_performed"
+}

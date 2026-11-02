@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "acquired_on": "2026-10-30",
+  "landing_page": "https://www.nist.gov/ctl/smart-connected-systems-division/smart-connected-manufacturing-systems-group/mbe-pmi-0",
+  "license": "NIST public test data; unrestricted use; acknowledgement requested; no endorsement implied",
+  "archives": [
+    {
+      "id": "nist-stc",
+      "url": "https://www.nist.gov/document/nist-stc-pmi-v4",
+      "size_bytes": 51125067,
+      "sha256": "bb4fb9939476542af6e90fd2616b4e897756916494a4c92f11404fc13dd1aba8"
+    },
+    {
+      "id": "nist-ftc-ctc",
+      "url": "https://www.nist.gov/document/nist-ftc-ctc-pmi-cad-models",
+      "size_bytes": 60294624,
+      "sha256": "17e14dbf207f447f16e0182a7eda5254ee19afff591dd409b8b510103dd05d10"
+    },
+    {
+      "id": "nist-htc",
+      "url": "https://www.nist.gov/document/nist-htc-pmi-cad-models",
+      "size_bytes": 5952887,
+      "sha256": "6ac4b6fdf43bb0e4f5e5947079f38eb3244c1a9e286bf092879e7310fbcc9d31"
+    },
+    {
+      "id": "nist-step",
+      "url": "https://www.nist.gov/document/nist-pmi-step-files",
+      "size_bytes": 13976599,
+      "sha256": "8fa78429e6d8d9b0d7681d223b6aa9ec98c3772185c55b1a0e3679b21c181911"
+    }
+  ]
+}

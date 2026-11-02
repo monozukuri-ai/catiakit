@@ -1,0 +1,417 @@
+{
+  "provenance": "constructed grammar fixtures; not CATIA-authored",
+  "fixtures": [
+    {
+      "path": "native-nurbs-rectangle.cfv2",
+      "sha256": "fb14902adc389d77daa48878f3316e90565dc5bd18c20adad37cf44ccb0a8ede",
+      "vertices": 5,
+      "edges": 5,
+      "faces": 1,
+      "main_bytes": 1981,
+      "fbb": 1781,
+      "packet_ranges": [
+        [
+          1005,
+          1781
+        ]
+      ],
+      "edge_ranges": [
+        [
+          1792,
+          1812
+        ],
+        [
+          1812,
+          1832
+        ],
+        [
+          1843,
+          1863
+        ],
+        [
+          1863,
+          1875
+        ],
+        [
+          1875,
+          1887
+        ]
+      ]
+    },
+    {
+      "path": "native-nurbs-local-limits.cfv2",
+      "sha256": "f33f347d484c843e91feb92eca31995d7b0f1cff6e0331d96fef26db4540e878",
+      "vertices": 5,
+      "edges": 5,
+      "faces": 1,
+      "main_bytes": 1981,
+      "fbb": 1781,
+      "packet_ranges": [
+        [
+          1005,
+          1781
+        ]
+      ],
+      "edge_ranges": [
+        [
+          1792,
+          1812
+        ],
+        [
+          1812,
+          1832
+        ],
+        [
+          1843,
+          1863
+        ],
+        [
+          1863,
+          1875
+        ],
+        [
+          1875,
+          1887
+        ]
+      ]
+    },
+    {
+      "path": "ambiguous-nurbs-rectangle.cfv2",
+      "sha256": "75c0c347a3ae22a6cc3de0cb7439255cf91f6430123b3e0483e668fbd9837308",
+      "vertices": 5,
+      "edges": 5,
+      "faces": 1,
+      "main_bytes": 1981,
+      "fbb": 1781,
+      "packet_ranges": [
+        [
+          1005,
+          1781
+        ]
+      ],
+      "edge_ranges": [
+        [
+          1792,
+          1812
+        ],
+        [
+          1812,
+          1832
+        ],
+        [
+          1843,
+          1863
+        ],
+        [
+          1863,
+          1875
+        ],
+        [
+          1875,
+          1887
+        ]
+      ]
+    },
+    {
+      "path": "off-nurbs-rectangle.cfv2",
+      "sha256": "2f36ed84b8fc93b61da6ce35ed171d94b1fb07074378b41e31683a1549f1fbc1",
+      "vertices": 5,
+      "edges": 5,
+      "faces": 1,
+      "main_bytes": 1981,
+      "fbb": 1781,
+      "packet_ranges": [
+        [
+          1005,
+          1781
+        ]
+      ],
+      "edge_ranges": [
+        [
+          1792,
+          1812
+        ],
+        [
+          1812,
+          1832
+        ],
+        [
+          1843,
+          1863
+        ],
+        [
+          1863,
+          1875
+        ],
+        [
+          1875,
+          1887
+        ]
+      ]
+    },
+    {
+      "path": "native-nurbs-triangle.cfv2",
+      "sha256": "47cbaf114460b8c6ac6477d3e236e05efb710e3f5327f1f1aeb26b26d25db3a9",
+      "vertices": 3,
+      "edges": 3,
+      "faces": 1,
+      "main_bytes": 2167,
+      "fbb": 1997,
+      "packet_ranges": [
+        [
+          1125,
+          1997
+        ]
+      ],
+      "edge_ranges": [
+        [
+          2008,
+          2036
+        ],
+        [
+          2047,
+          2075
+        ],
+        [
+          2075,
+          2103
+        ]
+      ]
+    },
+    {
+      "path": "ambiguous-nurbs-triangle.cfv2",
+      "sha256": "0422786511079da941cb1af4d0befda345ec73fd2027b68aa4eb44ba020c5b7b",
+      "vertices": 3,
+      "edges": 3,
+      "faces": 1,
+      "main_bytes": 2167,
+      "fbb": 1997,
+      "packet_ranges": [
+        [
+          1125,
+          1997
+        ]
+      ],
+      "edge_ranges": [
+        [
+          2008,
+          2036
+        ],
+        [
+          2047,
+          2075
+        ],
+        [
+          2075,
+          2103
+        ]
+      ]
+    },
+    {
+      "path": "off-nurbs-triangle.cfv2",
+      "sha256": "7664b72da0694d0507fb8eaa618eea5a1e230ce22f002edb2b3b443496b67df0",
+      "vertices": 3,
+      "edges": 3,
+      "faces": 1,
+      "main_bytes": 2167,
+      "fbb": 1997,
+      "packet_ranges": [
+        [
+          1125,
+          1997
+        ]
+      ],
+      "edge_ranges": [
+        [
+          2008,
+          2036
+        ],
+        [
+          2047,
+          2075
+        ],
+        [
+          2075,
+          2103
+        ]
+      ]
+    },
+    {
+      "path": "sparse-circle-cylinder.cfv2",
+      "sha256": "b28ae28aa0f0a05c1d22def9e4b47b57dfad64a6e2c0f76c33a9987f7c94651c",
+      "vertices": 8,
+      "edges": 9,
+      "faces": 3,
+      "main_bytes": 552,
+      "fbb": 321,
+      "packet_ranges": [
+        [
+          177,
+          221
+        ],
+        [
+          221,
+          265
+        ],
+        [
+          265,
+          321
+        ]
+      ],
+      "edge_ranges": [
+        [
+          348,
+          354
+        ],
+        [
+          354,
+          360
+        ],
+        [
+          360,
+          366
+        ],
+        [
+          366,
+          372
+        ],
+        [
+          383,
+          389
+        ],
+        [
+          389,
+          395
+        ],
+        [
+          395,
+          401
+        ],
+        [
+          401,
+          407
+        ],
+        [
+          407,
+          413
+        ]
+      ]
+    },
+    {
+      "path": "coordinate-sphere-seam.cfv2",
+      "sha256": "ad4f10608f600fa20bb23454afc73f887dca34446c1e52ef8f5aedc5c20d438c",
+      "vertices": 2,
+      "edges": 2,
+      "faces": 2,
+      "main_bytes": 992,
+      "fbb": 841,
+      "packet_ranges": [
+        [
+          441,
+          641
+        ],
+        [
+          641,
+          841
+        ]
+      ],
+      "edge_ranges": [
+        [
+          860,
+          896
+        ],
+        [
+          907,
+          943
+        ]
+      ]
+    },
+    {
+      "path": "unresolved-tilted-sphere-seam.cfv2",
+      "sha256": "977b121b3b8fd039eab4e7d831190da3af3e40e6318729c1067c8326f66da661",
+      "vertices": 2,
+      "edges": 2,
+      "faces": 2,
+      "main_bytes": 992,
+      "fbb": 841,
+      "packet_ranges": [
+        [
+          441,
+          641
+        ],
+        [
+          641,
+          841
+        ]
+      ],
+      "edge_ranges": [
+        [
+          860,
+          896
+        ],
+        [
+          907,
+          943
+        ]
+      ]
+    },
+    {
+      "path": "native-meridian-tilted-sphere.cfv2",
+      "sha256": "86e06b09e47411a057db44e5709f01c39a48bdf9ec649b9de88850dcd5597499",
+      "vertices": 2,
+      "edges": 2,
+      "faces": 2,
+      "main_bytes": 992,
+      "fbb": 841,
+      "packet_ranges": [
+        [
+          441,
+          641
+        ],
+        [
+          641,
+          841
+        ]
+      ],
+      "edge_ranges": [
+        [
+          860,
+          896
+        ],
+        [
+          907,
+          943
+        ]
+      ]
+    },
+    {
+      "path": "invalid-native-sphere-domain.cfv2",
+      "sha256": "eacac14b3e6b97463aca5ebd14c5962017b27184be0046a45ab043c30e545c0f",
+      "vertices": 2,
+      "edges": 2,
+      "faces": 2,
+      "main_bytes": 992,
+      "fbb": 841,
+      "packet_ranges": [
+        [
+          441,
+          641
+        ],
+        [
+          641,
+          841
+        ]
+      ],
+      "edge_ranges": [
+        [
+          860,
+          896
+        ],
+        [
+          907,
+          943
+        ]
+      ]
+    }
+  ]
+}
