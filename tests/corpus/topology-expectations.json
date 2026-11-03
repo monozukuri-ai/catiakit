@@ -1,0 +1,820 @@
+{
+  "schema_version": 1,
+  "report_schema_version": 2,
+  "budgets": "defaults",
+  "files": [
+    {
+      "case_id": "ftc-06",
+      "path": "data/corpus/nist-ftc-ctc/NIST-FTC-CTC-PMI-CAD-models/CATIA V5-6R2019/NIST_PMI_CATIA_V5-6R2021/nist_ftc_06_asme1_ct5315_rd.CATPart",
+      "sha256": "db5e646a3faa81d6a2bf3eeb9bec5b57e90df7cbadacbfaaa4b14aee0b56d630",
+      "authoring_version": "V5R31 SP5 HF0 (02-25-2022.22.30)",
+      "status": "partial",
+      "features": {
+        "container": "partial",
+        "metadata": "partial",
+        "geometry": "partial",
+        "topology": "complete"
+      },
+      "counts": {
+        "bodies": 1,
+        "regions": 1,
+        "shells": 1,
+        "faces": 187,
+        "loops": 226,
+        "coedges": 952,
+        "edges": 476,
+        "vertices": 310,
+        "pcurves": 952,
+        "scopes": 1,
+        "unresolved": 0
+      },
+      "native_uv_counts": {
+        "parameter_map_contexts": 91,
+        "parameter_maps": 396,
+        "sphere_meridians": 3,
+        "runs": 1,
+        "pcurves": 12,
+        "carriers": 99,
+        "nurbs_carriers": 0,
+        "jet_pairs": 6
+      },
+      "bodies": [
+        {
+          "kind": "closed_shell",
+          "regions": 1,
+          "export_eligible": true,
+          "solid_validated": false
+        }
+      ],
+      "diagnostics": [
+        "container.empty_declaration_unverified",
+        "container.geometry_layout_unclassified",
+        "geometry.carrier_unsupported"
+      ]
+    },
+    {
+      "case_id": "ftc-10",
+      "path": "data/corpus/nist-ftc-ctc/NIST-FTC-CTC-PMI-CAD-models/CATIA V5-6R2019/NIST_PMI_CATIA_V5-6R2021/nist_ftc_10_asme1_ct5315_rb.CATPart",
+      "sha256": "c18f19a15a06a8dfec49a65aae56d2b50e5b81de6ac0d8a58029521e09ebc25b",
+      "authoring_version": "V5R31 SP6 HF0 (04-08-2022.22.30)",
+      "status": "partial",
+      "features": {
+        "container": "partial",
+        "metadata": "partial",
+        "geometry": "partial",
+        "topology": "partial"
+      },
+      "counts": {
+        "native_boundary_uv": 1,
+        "analytic_partials": 1,
+        "boundaries": 1,
+        "bodies": 1,
+        "regions": 0,
+        "shells": 0,
+        "faces": 0,
+        "loops": 0,
+        "coedges": 0,
+        "edges": 0,
+        "vertices": 0,
+        "pcurves": 0,
+        "scopes": 0,
+        "unresolved": 1
+      },
+      "native_uv_counts": {
+        "parameter_map_contexts": 181,
+        "nurbs_parameter_objects": 1,
+        "parameter_maps": 967,
+        "runs": 1,
+        "pcurves": 349,
+        "carriers": 205,
+        "nurbs_carriers": 1,
+        "jet_pairs": 0
+      },
+      "bodies": [
+        {
+          "kind": "unresolved",
+          "regions": 0,
+          "export_eligible": false,
+          "solid_validated": false
+        }
+      ],
+      "diagnostics": [
+        "container.empty_declaration_unverified",
+        "container.geometry_layout_unclassified",
+        "geometry.carrier_unsupported",
+        "geometry.curve_frame_unresolved",
+        "geometry.plane_location_unresolved",
+        "geometry.topology_not_decoded",
+        "topology.geometry_unsupported"
+      ]
+    },
+    {
+      "case_id": "ftc-11",
+      "path": "data/corpus/nist-ftc-ctc/NIST-FTC-CTC-PMI-CAD-models/CATIA V5-6R2019/NIST_PMI_CATIA_V5-6R2021/nist_ftc_11_asme1_ct5315_rb.CATPart",
+      "sha256": "3c0758fd30945f8121d24f595ba5229dd9f89cd6ab7e58b194db44d0452b6f85",
+      "authoring_version": "V5R31 SP5 HF0 (02-25-2022.22.30)",
+      "status": "partial",
+      "features": {
+        "container": "partial",
+        "metadata": "partial",
+        "geometry": "partial",
+        "topology": "complete"
+      },
+      "counts": {
+        "bodies": 1,
+        "regions": 1,
+        "shells": 1,
+        "faces": 48,
+        "loops": 52,
+        "coedges": 256,
+        "edges": 128,
+        "vertices": 84,
+        "pcurves": 256,
+        "scopes": 1,
+        "unresolved": 0
+      },
+      "native_uv_counts": {
+        "parameter_map_contexts": 15,
+        "parameter_maps": 132,
+        "runs": 1,
+        "pcurves": 6,
+        "carriers": 20,
+        "nurbs_carriers": 0,
+        "jet_pairs": 0
+      },
+      "bodies": [
+        {
+          "kind": "closed_shell",
+          "regions": 1,
+          "export_eligible": true,
+          "solid_validated": false
+        }
+      ],
+      "diagnostics": [
+        "container.empty_declaration_unverified",
+        "container.geometry_layout_unclassified"
+      ]
+    },
+    {
+      "case_id": "ctc-01",
+      "path": "data/corpus/nist-ftc-ctc/NIST-FTC-CTC-PMI-CAD-models/CATIA V5-6R2019/nist_ctc_01_asme1_rd_ct5290_ra.CATPart",
+      "sha256": "3f19cc5350b8ca45ade6035d16ab4e1362243ac7e614a1dd9d658efd85a19e00",
+      "authoring_version": "V5R29 SP3 HF0 (06-20-2019.20.00)",
+      "status": "partial",
+      "features": {
+        "container": "partial",
+        "metadata": "partial",
+        "geometry": "partial",
+        "topology": "complete"
+      },
+      "counts": {
+        "bodies": 1,
+        "regions": 1,
+        "shells": 1,
+        "faces": 117,
+        "loops": 140,
+        "coedges": 636,
+        "edges": 318,
+        "vertices": 206,
+        "pcurves": 636,
+        "scopes": 1,
+        "unresolved": 0
+      },
+      "native_uv_counts": {
+        "parameter_map_contexts": 45,
+        "parameter_maps": 301,
+        "runs": 1,
+        "pcurves": 28,
+        "carriers": 49,
+        "nurbs_carriers": 0,
+        "jet_pairs": 4
+      },
+      "bodies": [
+        {
+          "kind": "closed_shell",
+          "regions": 1,
+          "export_eligible": true,
+          "solid_validated": false
+        }
+      ],
+      "diagnostics": [
+        "container.empty_declaration_unverified",
+        "container.geometry_layout_unclassified",
+        "geometry.carrier_unsupported"
+      ]
+    },
+    {
+      "case_id": "ctc-02",
+      "path": "data/corpus/nist-ftc-ctc/NIST-FTC-CTC-PMI-CAD-models/CATIA V5-6R2019/nist_ctc_02_asme1_rc_ct5290_ra.CATPart",
+      "sha256": "2c5ae50c5672ca640e620c5dad239e07212b9478621573404e20b6d542d04f68",
+      "authoring_version": "V5R29 SP3 HF0 (06-20-2019.20.00)",
+      "status": "partial",
+      "features": {
+        "container": "partial",
+        "metadata": "partial",
+        "geometry": "partial",
+        "topology": "complete"
+      },
+      "counts": {
+        "bodies": 1,
+        "regions": 1,
+        "shells": 1,
+        "faces": 635,
+        "loops": 750,
+        "coedges": 2820,
+        "edges": 1410,
+        "vertices": 870,
+        "pcurves": 2820,
+        "scopes": 1,
+        "unresolved": 0
+      },
+      "native_uv_counts": {
+        "parameter_map_contexts": 328,
+        "parameter_maps": 1071,
+        "ruled_carriers": 4,
+        "rolling_ball_carriers": 28,
+        "runs": 7,
+        "pcurves": 324,
+        "carriers": 328,
+        "nurbs_carriers": 2,
+        "jet_pairs": 104
+      },
+      "bodies": [
+        {
+          "kind": "closed_shell",
+          "regions": 1,
+          "export_eligible": true,
+          "solid_validated": false
+        }
+      ],
+      "diagnostics": [
+        "container.empty_declaration_unverified",
+        "container.geometry_layout_unclassified",
+        "geometry.carrier_unsupported"
+      ]
+    },
+    {
+      "case_id": "ctc-03",
+      "path": "data/corpus/nist-ftc-ctc/NIST-FTC-CTC-PMI-CAD-models/CATIA V5-6R2019/nist_ctc_03_asme1_rc_ct5290_ra.CATPart",
+      "sha256": "4dc28d14a8cabeefb040b709016ff87a1766e8b620a63e8932d6bc003ed4845f",
+      "authoring_version": "V5R29 SP3 HF0 (06-20-2019.20.00)",
+      "status": "partial",
+      "features": {
+        "container": "partial",
+        "metadata": "partial",
+        "geometry": "partial",
+        "topology": "complete"
+      },
+      "counts": {
+        "bodies": 1,
+        "regions": 1,
+        "shells": 1,
+        "faces": 120,
+        "loops": 154,
+        "coedges": 708,
+        "edges": 354,
+        "vertices": 236,
+        "pcurves": 708,
+        "scopes": 1,
+        "unresolved": 0
+      },
+      "native_uv_counts": {
+        "parameter_map_contexts": 30,
+        "parameter_maps": 303,
+        "runs": 1,
+        "pcurves": 0,
+        "carriers": 43,
+        "nurbs_carriers": 0,
+        "jet_pairs": 0
+      },
+      "bodies": [
+        {
+          "kind": "closed_shell",
+          "regions": 1,
+          "export_eligible": true,
+          "solid_validated": false
+        }
+      ],
+      "diagnostics": [
+        "container.empty_declaration_unverified",
+        "container.geometry_layout_unclassified"
+      ]
+    },
+    {
+      "case_id": "ctc-05",
+      "path": "data/corpus/nist-ftc-ctc/NIST-FTC-CTC-PMI-CAD-models/CATIA V5-6R2019/nist_ctc_05_asme1_rd_ct5290_ra.CATPart",
+      "sha256": "0bfd9c14be1e0169a9f062ba8843e9e46965549c6042033f9b3cfd52e8f0402b",
+      "authoring_version": "V5R29 SP3 HF0 (06-20-2019.20.00)",
+      "status": "partial",
+      "features": {
+        "container": "partial",
+        "metadata": "partial",
+        "geometry": "partial",
+        "topology": "complete"
+      },
+      "counts": {
+        "bodies": 1,
+        "regions": 1,
+        "shells": 1,
+        "faces": 170,
+        "loops": 213,
+        "coedges": 806,
+        "edges": 403,
+        "vertices": 258,
+        "pcurves": 806,
+        "scopes": 1,
+        "unresolved": 0
+      },
+      "native_uv_counts": {
+        "parameter_map_contexts": 60,
+        "parameter_maps": 265,
+        "rolling_ball_carriers": 4,
+        "runs": 1,
+        "pcurves": 68,
+        "carriers": 75,
+        "nurbs_carriers": 0,
+        "jet_pairs": 14
+      },
+      "bodies": [
+        {
+          "kind": "closed_shell",
+          "regions": 1,
+          "export_eligible": true,
+          "solid_validated": false
+        }
+      ],
+      "diagnostics": [
+        "container.empty_declaration_unverified",
+        "container.geometry_layout_unclassified",
+        "geometry.carrier_unsupported"
+      ]
+    },
+    {
+      "case_id": "ftc-06",
+      "path": "data/corpus/nist-ftc-ctc/NIST-FTC-CTC-PMI-CAD-models/CATIA V5-6R2019/nist_ftc_06_asme1_rd_ct5290_ra.CATPart",
+      "sha256": "13f2d9780204b45f81d4fd823589f84020ec0ac4f2374a2e0c8dd1815badad2a",
+      "authoring_version": "V5R29 SP3 HF0 (06-20-2019.20.00)",
+      "status": "partial",
+      "features": {
+        "container": "partial",
+        "metadata": "partial",
+        "geometry": "partial",
+        "topology": "complete"
+      },
+      "counts": {
+        "bodies": 1,
+        "regions": 1,
+        "shells": 1,
+        "faces": 187,
+        "loops": 226,
+        "coedges": 952,
+        "edges": 476,
+        "vertices": 310,
+        "pcurves": 952,
+        "scopes": 1,
+        "unresolved": 0
+      },
+      "native_uv_counts": {
+        "parameter_map_contexts": 91,
+        "parameter_maps": 396,
+        "sphere_meridians": 3,
+        "runs": 1,
+        "pcurves": 12,
+        "carriers": 99,
+        "nurbs_carriers": 0,
+        "jet_pairs": 6
+      },
+      "bodies": [
+        {
+          "kind": "closed_shell",
+          "regions": 1,
+          "export_eligible": true,
+          "solid_validated": false
+        }
+      ],
+      "diagnostics": [
+        "container.empty_declaration_unverified",
+        "container.geometry_layout_unclassified",
+        "geometry.carrier_unsupported"
+      ]
+    },
+    {
+      "case_id": "ftc-07",
+      "path": "data/corpus/nist-ftc-ctc/NIST-FTC-CTC-PMI-CAD-models/CATIA V5-6R2019/nist_ftc_07_asme1_rd_ct5290_ra.CATPart",
+      "sha256": "ee49a27b5f3ad414eb088d94375b1f324ec91124a31ffc361af6f50cbc2492a4",
+      "authoring_version": "V5R29 SP3 HF0 (06-20-2019.20.00)",
+      "status": "partial",
+      "features": {
+        "container": "partial",
+        "metadata": "partial",
+        "geometry": "partial",
+        "topology": "partial"
+      },
+      "counts": {
+        "native_boundary_uv": 1,
+        "analytic_partials": 1,
+        "boundaries": 1,
+        "bodies": 1,
+        "regions": 0,
+        "shells": 0,
+        "faces": 0,
+        "loops": 0,
+        "coedges": 0,
+        "edges": 0,
+        "vertices": 0,
+        "pcurves": 0,
+        "scopes": 0,
+        "unresolved": 1
+      },
+      "native_uv_counts": {
+        "parameter_map_contexts": 180,
+        "nurbs_parameter_objects": 20,
+        "parameter_maps": 885,
+        "runs": 1,
+        "pcurves": 266,
+        "carriers": 182,
+        "nurbs_carriers": 20,
+        "jet_pairs": 0
+      },
+      "bodies": [
+        {
+          "kind": "unresolved",
+          "regions": 0,
+          "export_eligible": false,
+          "solid_validated": false
+        }
+      ],
+      "diagnostics": [
+        "container.empty_declaration_unverified",
+        "container.geometry_layout_unclassified",
+        "geometry.carrier_unsupported",
+        "geometry.curve_frame_unresolved",
+        "geometry.plane_location_unresolved",
+        "geometry.topology_not_decoded",
+        "topology.geometry_unsupported"
+      ]
+    },
+    {
+      "case_id": "ftc-09",
+      "path": "data/corpus/nist-ftc-ctc/NIST-FTC-CTC-PMI-CAD-models/CATIA V5-6R2019/nist_ftc_09_asme1_rd_ct5290_ra.CATPart",
+      "sha256": "80d1f6b1226807be22df795ae682fd31a599a5c54ab1e36fda06b36f5c0c5e93",
+      "authoring_version": "V5R29 SP3 HF0 (06-20-2019.20.00)",
+      "status": "partial",
+      "features": {
+        "container": "partial",
+        "metadata": "partial",
+        "geometry": "partial",
+        "topology": "complete"
+      },
+      "counts": {
+        "bodies": 1,
+        "regions": 1,
+        "shells": 1,
+        "faces": 158,
+        "loops": 228,
+        "coedges": 908,
+        "edges": 454,
+        "vertices": 300,
+        "pcurves": 908,
+        "scopes": 1,
+        "unresolved": 0
+      },
+      "native_uv_counts": {
+        "parameter_map_contexts": 34,
+        "parameter_maps": 273,
+        "runs": 1,
+        "pcurves": 0,
+        "carriers": 67,
+        "nurbs_carriers": 0,
+        "jet_pairs": 0
+      },
+      "bodies": [
+        {
+          "kind": "closed_shell",
+          "regions": 1,
+          "export_eligible": true,
+          "solid_validated": false
+        }
+      ],
+      "diagnostics": [
+        "container.empty_declaration_unverified",
+        "container.geometry_layout_unclassified"
+      ]
+    },
+    {
+      "case_id": "ftc-10",
+      "path": "data/corpus/nist-ftc-ctc/NIST-FTC-CTC-PMI-CAD-models/CATIA V5-6R2019/nist_ftc_10_asme1_rb_ct5290_ra.CATPart",
+      "sha256": "aa41c914ca1ee2ee70b5b9a66acfcbad7b82b34d09279244cf2ccab81dda2452",
+      "authoring_version": "V5R29 SP3 HF0 (06-20-2019.20.00)",
+      "status": "partial",
+      "features": {
+        "container": "partial",
+        "metadata": "partial",
+        "geometry": "partial",
+        "topology": "partial"
+      },
+      "counts": {
+        "native_boundary_uv": 1,
+        "analytic_partials": 1,
+        "boundaries": 1,
+        "bodies": 1,
+        "regions": 0,
+        "shells": 0,
+        "faces": 0,
+        "loops": 0,
+        "coedges": 0,
+        "edges": 0,
+        "vertices": 0,
+        "pcurves": 0,
+        "scopes": 0,
+        "unresolved": 1
+      },
+      "native_uv_counts": {
+        "parameter_map_contexts": 164,
+        "nurbs_parameter_objects": 1,
+        "parameter_maps": 839,
+        "runs": 1,
+        "pcurves": 349,
+        "carriers": 183,
+        "nurbs_carriers": 1,
+        "jet_pairs": 0
+      },
+      "bodies": [
+        {
+          "kind": "unresolved",
+          "regions": 0,
+          "export_eligible": false,
+          "solid_validated": false
+        }
+      ],
+      "diagnostics": [
+        "container.empty_declaration_unverified",
+        "container.geometry_layout_unclassified",
+        "geometry.carrier_unsupported",
+        "geometry.curve_frame_unresolved",
+        "geometry.plane_location_unresolved",
+        "geometry.topology_not_decoded",
+        "topology.geometry_unsupported"
+      ]
+    },
+    {
+      "case_id": "ftc-11",
+      "path": "data/corpus/nist-ftc-ctc/NIST-FTC-CTC-PMI-CAD-models/CATIA V5-6R2019/nist_ftc_11_asme1_rb_ct5290_ra.CATPart",
+      "sha256": "62922f3fa28632265ec00470d706641525854b06baf65d11cb120d5692e70a14",
+      "authoring_version": "V5R29 SP3 HF0 (06-20-2019.20.00)",
+      "status": "partial",
+      "features": {
+        "container": "partial",
+        "metadata": "partial",
+        "geometry": "partial",
+        "topology": "complete"
+      },
+      "counts": {
+        "bodies": 1,
+        "regions": 1,
+        "shells": 1,
+        "faces": 10,
+        "loops": 12,
+        "coedges": 48,
+        "edges": 24,
+        "vertices": 16,
+        "pcurves": 48,
+        "scopes": 1,
+        "unresolved": 0
+      },
+      "native_uv_counts": {
+        "parameter_map_contexts": 6,
+        "parameter_maps": 24,
+        "runs": 1,
+        "pcurves": 6,
+        "carriers": 6,
+        "nurbs_carriers": 0,
+        "jet_pairs": 0
+      },
+      "bodies": [
+        {
+          "kind": "closed_shell",
+          "regions": 1,
+          "export_eligible": true,
+          "solid_validated": false
+        }
+      ],
+      "diagnostics": [
+        "container.empty_declaration_unverified",
+        "container.geometry_layout_unclassified"
+      ]
+    },
+    {
+      "case_id": "stc-06",
+      "path": "data/corpus/nist-stc/NIST-STC-PMI-v4/CATIA V5-6R2023/nist_stc_06_asme1_V56R2023.CATPart",
+      "sha256": "5c7dfddbb95f9ef1c2e5768d8710fdc142b784c6c77629497c20acaf28734073",
+      "authoring_version": "V5R33 SP0 HF0 (10-13-2022.18.00)",
+      "status": "partial",
+      "features": {
+        "container": "partial",
+        "metadata": "partial",
+        "geometry": "partial",
+        "topology": "complete"
+      },
+      "counts": {
+        "bodies": 1,
+        "regions": 1,
+        "shells": 1,
+        "faces": 187,
+        "loops": 226,
+        "coedges": 952,
+        "edges": 476,
+        "vertices": 310,
+        "pcurves": 952,
+        "scopes": 1,
+        "unresolved": 0
+      },
+      "native_uv_counts": {
+        "parameter_map_contexts": 91,
+        "parameter_maps": 396,
+        "sphere_meridians": 3,
+        "runs": 1,
+        "pcurves": 12,
+        "carriers": 101,
+        "nurbs_carriers": 0,
+        "jet_pairs": 6
+      },
+      "bodies": [
+        {
+          "kind": "closed_shell",
+          "regions": 1,
+          "export_eligible": true,
+          "solid_validated": false
+        }
+      ],
+      "diagnostics": [
+        "container.empty_declaration_unverified",
+        "container.geometry_layout_unclassified",
+        "geometry.carrier_unsupported",
+        "preview.trailing_data"
+      ]
+    },
+    {
+      "case_id": "stc-07",
+      "path": "data/corpus/nist-stc/NIST-STC-PMI-v4/CATIA V5-6R2023/nist_stc_07_asme1_V56R2023.CATPart",
+      "sha256": "3725676abe769b604080180b34488e7bafcb449e82782f2124334399b5cabb6a",
+      "authoring_version": "V5R33 SP0 HF0 (10-13-2022.18.00)",
+      "status": "partial",
+      "features": {
+        "container": "partial",
+        "metadata": "partial",
+        "geometry": "partial",
+        "topology": "partial"
+      },
+      "counts": {
+        "native_boundary_uv": 1,
+        "analytic_partials": 1,
+        "boundaries": 1,
+        "bodies": 1,
+        "regions": 0,
+        "shells": 0,
+        "faces": 0,
+        "loops": 0,
+        "coedges": 0,
+        "edges": 0,
+        "vertices": 0,
+        "pcurves": 0,
+        "scopes": 0,
+        "unresolved": 1
+      },
+      "native_uv_counts": {
+        "parameter_map_contexts": 180,
+        "nurbs_parameter_objects": 20,
+        "parameter_maps": 885,
+        "runs": 1,
+        "pcurves": 266,
+        "carriers": 182,
+        "nurbs_carriers": 20,
+        "jet_pairs": 0
+      },
+      "bodies": [
+        {
+          "kind": "unresolved",
+          "regions": 0,
+          "export_eligible": false,
+          "solid_validated": false
+        }
+      ],
+      "diagnostics": [
+        "container.empty_declaration_unverified",
+        "container.geometry_layout_unclassified",
+        "geometry.carrier_unsupported",
+        "geometry.curve_frame_unresolved",
+        "geometry.plane_location_unresolved",
+        "geometry.topology_not_decoded",
+        "preview.trailing_data",
+        "topology.geometry_unsupported"
+      ]
+    },
+    {
+      "case_id": "stc-09",
+      "path": "data/corpus/nist-stc/NIST-STC-PMI-v4/CATIA V5-6R2023/nist_stc_09_asme1_V5R2023.CATPart",
+      "sha256": "102e798f1774f38503e5c8b1012c4331eff629c64db103ac93c016f7cf05fea6",
+      "authoring_version": "V5R33 SP0 HF0 (10-13-2022.18.00)",
+      "status": "partial",
+      "features": {
+        "container": "partial",
+        "metadata": "partial",
+        "geometry": "partial",
+        "topology": "complete"
+      },
+      "counts": {
+        "bodies": 1,
+        "regions": 1,
+        "shells": 1,
+        "faces": 158,
+        "loops": 228,
+        "coedges": 908,
+        "edges": 454,
+        "vertices": 300,
+        "pcurves": 908,
+        "scopes": 1,
+        "unresolved": 0
+      },
+      "native_uv_counts": {
+        "parameter_map_contexts": 34,
+        "parameter_maps": 273,
+        "runs": 1,
+        "pcurves": 0,
+        "carriers": 67,
+        "nurbs_carriers": 0,
+        "jet_pairs": 0
+      },
+      "bodies": [
+        {
+          "kind": "closed_shell",
+          "regions": 1,
+          "export_eligible": true,
+          "solid_validated": false
+        }
+      ],
+      "diagnostics": [
+        "container.empty_declaration_unverified",
+        "container.geometry_layout_unclassified",
+        "preview.trailing_data"
+      ]
+    },
+    {
+      "case_id": "stc-10",
+      "path": "data/corpus/nist-stc/NIST-STC-PMI-v4/CATIA V5-6R2023/nist_stc_10_asme1_V56R2023.CATPart",
+      "sha256": "243a87b1f9290ea2b93b6ec5258ab135872d4b10a393e890a5ebda51d3e077ac",
+      "authoring_version": "V5R33 SP0 HF0 (10-13-2022.18.00)",
+      "status": "partial",
+      "features": {
+        "container": "partial",
+        "metadata": "partial",
+        "geometry": "partial",
+        "topology": "partial"
+      },
+      "counts": {
+        "native_boundary_uv": 1,
+        "analytic_partials": 1,
+        "boundaries": 1,
+        "bodies": 1,
+        "regions": 0,
+        "shells": 0,
+        "faces": 0,
+        "loops": 0,
+        "coedges": 0,
+        "edges": 0,
+        "vertices": 0,
+        "pcurves": 0,
+        "scopes": 0,
+        "unresolved": 1
+      },
+      "native_uv_counts": {
+        "parameter_map_contexts": 164,
+        "nurbs_parameter_objects": 1,
+        "parameter_maps": 837,
+        "runs": 1,
+        "pcurves": 349,
+        "carriers": 183,
+        "nurbs_carriers": 1,
+        "jet_pairs": 0
+      },
+      "bodies": [
+        {
+          "kind": "unresolved",
+          "regions": 0,
+          "export_eligible": false,
+          "solid_validated": false
+        }
+      ],
+      "diagnostics": [
+        "container.empty_declaration_unverified",
+        "container.geometry_layout_unclassified",
+        "geometry.carrier_unsupported",
+        "geometry.curve_frame_unresolved",
+        "geometry.plane_location_unresolved",
+        "geometry.topology_not_decoded",
+        "preview.trailing_data",
+        "topology.geometry_unsupported"
+      ]
+    }
+  ]
+}

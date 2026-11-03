@@ -28,8 +28,20 @@ shape changes.
   `22`-tagged link index words (V5R12).
 - `tools/corpus/check_document_properties.py` and a CI `corpus` job that
   fetches the pinned NIST archives and runs the container, metadata and document checks.
+- `sample_geometry` example: evaluates the edge curves, pcurves and
+  rolling-ball surfaces of a decoded document for external adapters.
+- `tools/occt/`: an Open CASCADE adapter that rebuilds decoded bodies,
+  checks them with `BRepCheck` and compares them with the STEP references of
+  the corpus (`compare_step.py`).
+- `tools/corpus/check_topology.py` with `tests/corpus/topology-expectations.json`:
+  decoded-topology regression for the sixteen development models under the
+  default budgets, run by the CI `corpus` job.
 
 ### Changed
+
+- Default topology budgets are 2,000,000 records and 2,000,000,000 work
+  steps (previously 250,000 and 50,000,000), so every development model of
+  the corpus decodes with the defaults; CTC02 needed explicit flags before.
 
 - Repository layout for publication: milestone records, validation reports,
   reference-implementation and research tooling, and research examples are

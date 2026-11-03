@@ -19,16 +19,21 @@ current scope.
   eleven produce a complete shell; five freeform models retain their boundary
   evidence and partial UV without a body.
 - Stable JSON reports with per-feature coverage, diagnostic codes and source
-  positions, a fuzz harness, and corpus checks that run in CI.
+  positions, a fuzz harness, and corpus checks that run in CI, including a
+  decoded-topology regression for the sixteen development models.
+- An Open CASCADE adapter, separate from the parser, that rebuilds the
+  complete development models, checks them with the kernel and compares them
+  with the published STEP exports; nine of the eleven agree with a reference
+  and the two others differ from every reference in the stored data.
 
 ## Next
 
 - Close the remaining freeform trimming cases and define the tolerance model
   for shared edges, so that every development model produces a body or an
   explicit reason.
-- Independent solid validation and comparison with the published STEP files
-  through an external geometry kernel, run as a separate adapter rather than a
-  runtime dependency.
+- Extend the external comparison to open shells and to the partial models
+  once they produce bodies, and settle how kernel-strict face flags on inner
+  loops are reported.
 - Qualify the reserved evaluation models of the corpus after the development
   models are complete.
 - Product properties such as part number and nomenclature, once the

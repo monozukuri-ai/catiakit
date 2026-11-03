@@ -56,8 +56,11 @@ impl Default for ParseLimits {
             max_geometry_records: 100_000,
             max_geometry_steps: 32_000_000,
             max_topology_bytes: 32 * 1024 * 1024,
-            max_topology_records: 250_000,
-            max_topology_steps: 50_000_000,
+            // The largest development model (CTC02, 635 faces) needs about
+            // 710,000 records and 600,000,000 steps; the defaults leave a
+            // margin of roughly three times.
+            max_topology_records: 2_000_000,
+            max_topology_steps: 2_000_000_000,
         }
     }
 }

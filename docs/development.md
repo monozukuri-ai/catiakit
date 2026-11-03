@@ -14,7 +14,7 @@ python3 tools/license/check_license.py
 python3 tools/check_public_tree.py
 ```
 
-CI defines build and test jobs for Ubuntu 24.04, Windows Server 2025, and macOS 15. Formatting, Clippy, the license and public-tree checks, documentation checks, and the corpus tooling tests run on Linux. The matrix uses synthetic input and does not download the NIST corpus. A separate `corpus` job runs on pushes to `main`, on manual dispatch and weekly: it fetches the hash-pinned NIST archives, verifies them, and runs the container, metadata and document-property checks, uploading the JSON reports as an artifact.
+CI defines build and test jobs for Ubuntu 24.04, Windows Server 2025, and macOS 15. Formatting, Clippy, the license and public-tree checks, documentation checks, and the corpus tooling tests run on Linux. The matrix uses synthetic input and does not download the NIST corpus. A separate `corpus` job runs on pushes to `main`, on manual dispatch and weekly: it fetches the hash-pinned NIST archives, verifies them, and runs the container, metadata, document-property and topology checks, uploading the JSON reports as an artifact.
 
 ## Inspection contract
 
@@ -62,17 +62,28 @@ cargo build --workspace --bins --examples --locked
 python3 tools/corpus/check_m2.py
 python3 tools/corpus/check_m3.py
 python3 tools/corpus/check_document_properties.py
+python3 tools/corpus/check_topology.py
 ```
 
-`check_m2.py` compares descriptor positions, names, lengths, extents and reconstructed stream hashes with the frozen inventory. `check_m3.py` compares saved-version values and positions, verifies extracted preview hashes and dimensions with Pillow as an independent JPEG decoder, and runs controlled byte mutations for absence, conflict and unsupported-owner cases. `check_document_properties.py` asserts the document kind, storage declarations, typed property sets and the link table for every manifest CATPart; `--extra` summarizes unpinned local files without asserting them. Reports are written to an ignored local directory by default; pass `--output` to choose a path. CI writes them to the runner's temporary directory and uploads them as an artifact.
+`check_m2.py` compares descriptor positions, names, lengths, extents and reconstructed stream hashes with the frozen inventory. `check_m3.py` compares saved-version values and positions, verifies extracted preview hashes and dimensions with Pillow as an independent JPEG decoder, and runs controlled byte mutations for absence, conflict and unsupported-owner cases. `check_document_properties.py` asserts the document kind, storage declarations, typed property sets and the link table for every manifest CATPart; `--extra` summarizes unpinned local files without asserting them. `check_topology.py` decodes every development CATPart with the default budgets and compares feature coverage, population counts, body kinds and diagnostic codes with `tests/corpus/topology-expectations.json`; `--write` regenerates the expectations after an intended change, and the reserved evaluation split is never decoded. Reports are written to an ignored local directory by default; pass `--output` to choose a path. CI writes them to the runner's temporary directory and uploads them as an artifact.
 
-Geometry and topology comparisons against external references, and the research tooling behind the topology work, are maintained outside the public tree. The published scope of those features is stated in [compatibility](compatibility.md) and the [format notes](format-notes/topology.md).
+The research tooling behind the topology work is maintained outside the public tree. The comparison with the published STEP files is described under [external validation](#external-validation); the published scope of those features is stated in [compatibility](compatibility.md) and the [format notes](format-notes/topology.md).
 
 ## Geometry and topology
 
 `decode_geometry*` performs a separate geometry request after bounded inspection. It returns carrier definitions and serialized uses with partial geometry coverage; topology remains `not_requested`. Invalid native parameters become unknown definitions with raw bytes and diagnostics. Resource failures reject the request while retaining previously committed populations.
 
-`decode_brep*` adds an explicit topology request to the geometry route. It uses unique indexed endpoint bindings, complete trim paths, and native incidence to form derived shell groups. Work/record limits include handles, triangles, UV intersection checks, ownership, and public-model validation. Each population commits its geometry refinements and topology together. Unsupported populations remain explicit and cannot be exported. The `validate_brep_json` example revalidates CLI JSON from stdin with the public validators.
+`decode_brep*` adds an explicit topology request to the geometry route. It uses unique indexed endpoint bindings, complete trim paths, and native incidence to form derived shell groups. Work/record limits include handles, triangles, UV intersection checks, ownership, and public-model validation. Each population commits its geometry refinements and topology together. Unsupported populations remain explicit and cannot be exported. The `validate_brep_json` example revalidates CLI JSON from stdin with the public validators. The `sample_geometry` example evaluates the edge curves, pcurves and rolling-ball surfaces of such a document for external adapters.
+
+## External validation
+
+`tools/occt/compare_step.py` rebuilds every complete development model in Open CASCADE through the `cadquery-ocp` Python bindings, checks the result with `BRepCheck`, and compares volume, surface area, centroid, bounding box and principal moments with every STEP candidate of the same case from the NIST archives. Analytic and NURBS carriers become exact kernel primitives with the decoded parameterization; rolling-ball surfaces and procedural curves are interpolated from the `sample_geometry` output and recorded as approximations. The adapter is a development tool: it does not change the decoded data, nothing is written back to the parser, and `solid_validated` stays false in reports. See the [adapter notes](../tools/occt/README.md) for the construction rules, the comparison tolerances and the status vocabulary, and [compatibility](compatibility.md) for the published result.
+
+```sh
+python3 -m pip install cadquery-ocp
+cargo build --release --workspace --bins --examples --locked
+python3 tools/occt/compare_step.py
+```
 
 ## Fuzzing
 

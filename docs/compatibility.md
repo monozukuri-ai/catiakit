@@ -103,7 +103,7 @@ seam branches, directed parameter intervals, and derived pcurves. Closed and ope
 shell groups are distinguished. A body's native identity, material nesting, and
 native UV charts remain undeclared.
 
-This subset is qualified on CTC01, CTC02, CTC03, CTC05, STC06, STC09, FTC09, two FTC06 variants, and two FTC11 variants. CTC02 requires explicit increases to the record and work limits.
+This subset is qualified on CTC01, CTC02, CTC03, CTC05, STC06, STC09, FTC09, two FTC06 variants, and two FTC11 variants, all within the default record and work limits. The defaults are sized about three times above the largest development model; smaller limits remain configurable.
 
 Source-closed parameter-map contexts retain the two immediately following counted reference frames, including their allocation wire forms and opaque tails. Their numeric relations do not assign endpoint, support, face or edge identities.
 Other development models retain indexed boundary incidence and individually
@@ -122,10 +122,31 @@ vertex identities are never merged.
 
 `features.topology: complete` describes the admitted populations' graph and
 sampled boundary consistency. Overall and geometry coverage remain `partial`.
-`closed_shell` is not a validated solid; `solid_validated` remains false.
-`export_eligible` marks a complete candidate for a later adapter. A supplied
-closure expectation can withhold export of an otherwise valid open shell.
-See [topology admission rules](format-notes/topology.md).
+`closed_shell` is not a validated solid; `solid_validated` remains false because
+the parser contains no geometry kernel. `export_eligible` marks a complete
+candidate for an external adapter. A supplied closure expectation can withhold
+export of an otherwise valid open shell. See
+[topology admission rules](format-notes/topology.md).
+
+## External validation
+
+The eleven complete development models were rebuilt in Open CASCADE with the
+adapter under `tools/occt/` (see [development](development.md#external-validation)).
+Every one of them forms a closed shell without free edges in which each edge is
+used twice in opposite directions. Nine agree with a published STEP export of
+the same case in volume, surface area, sorted bounding-box extents and principal
+moments within a relative tolerance of 1e-4; eight of those also agree in
+placement, while the STC06 references are stored at a different origin. The two
+remaining models differ from every published reference in a way that is located
+in the stored data rather than in the decoding: the FTC11 file of the V5-6R2021
+folder carries thirty-eight faces of small features that no reference has, and
+the CTC05 file has no geometry at all where every reference carries a 2 mm
+pocket. Rolling-ball surfaces and procedural intersection curves are
+interpolated from samples in the adapter; the kernel's analyzer still flags some
+faces with inner loops as unorientable although its solid and shell checks pass,
+and the kernel's repaired copy is reported separately. These results qualify the
+decoded data of those files; they do not make `solid_validated` true, and the
+four reserved evaluation models were not decoded.
 
 `topology.native_uv` additionally decodes supported consolidated class-20 UV
 jets, selected binary64 analytic carriers, and standalone class-34 clamped

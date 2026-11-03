@@ -75,12 +75,13 @@ jobs:
           python3 tools/corpus/corpus.py fetch
           python3 tools/corpus/corpus.py verify
       - run: cargo build --workspace --bins --examples --locked
-      - name: Container, metadata and document-property checks
+      - name: Container, metadata, document-property and topology checks
         run: |
           mkdir -p "$RUNNER_TEMP/corpus-reports"
           python3 tools/corpus/check_m2.py --output "$RUNNER_TEMP/corpus-reports/stream-check.json"
           python3 tools/corpus/check_m3.py --output "$RUNNER_TEMP/corpus-reports/metadata-check.json"
           python3 tools/corpus/check_document_properties.py --output "$RUNNER_TEMP/corpus-reports/document-check.json"
+          python3 tools/corpus/check_topology.py --output "$RUNNER_TEMP/corpus-reports/topology-check.json"
       - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
         if: always()
         with:
